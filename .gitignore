@@ -1,0 +1,11 @@
+.freebuff
+.idea
+
+__pycache__
+
+# PyInstaller output (tools/emp/packaging/build_emp_cli.py)
+/build/
+/dist/
+
+disks/**
+iso/*.iso

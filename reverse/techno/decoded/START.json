@@ -1,0 +1,4558 @@
+{
+ "file": "START.MIX",
+ "signature": "0x0889",
+ "bpm": 140,
+ "field_04": 236,
+ "field_0a": 146,
+ "field_0e": 30,
+ "author": "mc magic",
+ "ident": "#SKKENNUNG#:0000000",
+ "title": "here we go",
+ "tracks": [
+  {
+   "track": 1,
+   "pan": 0,
+   "pan_name": "both",
+   "volume": 26699
+  },
+  {
+   "track": 2,
+   "pan": 0,
+   "pan_name": "both",
+   "volume": 27104
+  },
+  {
+   "track": 3,
+   "pan": 0,
+   "pan_name": "both",
+   "volume": 20631
+  },
+  {
+   "track": 4,
+   "pan": 0,
+   "pan_name": "both",
+   "volume": 26699
+  },
+  {
+   "track": 5,
+   "pan": 0,
+   "pan_name": "both",
+   "volume": 26294
+  },
+  {
+   "track": 6,
+   "pan": 0,
+   "pan_name": "both",
+   "volume": 26294
+  },
+  {
+   "track": 7,
+   "pan": 1,
+   "pan_name": "left",
+   "volume": 26699
+  },
+  {
+   "track": 8,
+   "pan": 2,
+   "pan_name": "right",
+   "volume": 26699
+  },
+  {
+   "track": 9,
+   "pan": 1,
+   "pan_name": "left",
+   "volume": 22654
+  },
+  {
+   "track": 10,
+   "pan": 2,
+   "pan_name": "right",
+   "volume": 23058
+  },
+  {
+   "track": 11,
+   "pan": 1,
+   "pan_name": "left",
+   "volume": 25890
+  },
+  {
+   "track": 12,
+   "pan": 2,
+   "pan_name": "right",
+   "volume": 26295
+  },
+  {
+   "track": 13,
+   "pan": 1,
+   "pan_name": "left",
+   "volume": 26699
+  },
+  {
+   "track": 14,
+   "pan": 2,
+   "pan_name": "right",
+   "volume": 26699
+  },
+  {
+   "track": 15,
+   "pan": 1,
+   "pan_name": "left",
+   "volume": 32767
+  },
+  {
+   "track": 16,
+   "pan": 2,
+   "pan_name": "right",
+   "volume": 32767
+  }
+ ],
+ "trailing_words": [
+  0,
+  0,
+  0,
+  0,
+  0,
+  16
+ ],
+ "sample_set": "Techno eJay 2 ",
+ "marker": 9,
+ "boxes": [
+  {
+   "lo": 2000,
+   "hi": 3399,
+   "name": "DanceMachine"
+  },
+  {
+   "lo": 3400,
+   "hi": 3899,
+   "name": "DanceMachine Samplekit Vol. 1 Raps & Voices"
+  },
+  {
+   "lo": 3900,
+   "hi": 4499,
+   "name": "DanceMachine Samplekit Vol. 2 Drums & Synthies"
+  },
+  {
+   "lo": 4500,
+   "hi": 5099,
+   "name": "DanceMachine Samplekit Vol. 3 Space Sounds"
+  },
+  {
+   "lo": 5100,
+   "hi": 5699,
+   "name": "Dance eJay Samplekit Vol. 4 House"
+  },
+  {
+   "lo": 5800,
+   "hi": 6499,
+   "name": "Dance eJay Samplekit Vol. 5 Trance"
+  },
+  {
+   "lo": 6500,
+   "hi": 7199,
+   "name": "Dance eJay Samplekit Vol. 6 Latin Dance"
+  }
+ ],
+ "pads": [
+  {
+   "sample_id": 0,
+   "name": "eurokick5",
+   "pitch": 0,
+   "word2": 0,
+   "word3": 26578,
+   "word4": 0,
+   "catalog": null
+  },
+  {
+   "sample_id": 0,
+   "name": "elec.sn 2",
+   "pitch": 0,
+   "word2": 0,
+   "word3": 26578,
+   "word4": 0,
+   "catalog": null
+  },
+  {
+   "sample_id": 0,
+   "name": "808cl.hat2",
+   "pitch": 0,
+   "word2": 0,
+   "word3": 26578,
+   "word4": 2,
+   "catalog": null
+  },
+  {
+   "sample_id": 0,
+   "name": "808op.hat",
+   "pitch": 0,
+   "word2": 0,
+   "word3": 26578,
+   "word4": 2,
+   "catalog": null
+  },
+  {
+   "sample_id": 0,
+   "name": "crash2",
+   "pitch": 0,
+   "word2": 0,
+   "word3": 26578,
+   "word4": 1,
+   "catalog": null
+  },
+  {
+   "sample_id": 0,
+   "name": "clap8",
+   "pitch": 0,
+   "word2": 0,
+   "word3": 26578,
+   "word4": 1,
+   "catalog": null
+  },
+  {
+   "sample_id": 0,
+   "name": "darabuka2",
+   "pitch": 0,
+   "word2": 0,
+   "word3": 17840,
+   "word4": 2,
+   "catalog": null
+  },
+  {
+   "sample_id": 0,
+   "name": "egg2",
+   "pitch": 0,
+   "word2": 0,
+   "word3": 26578,
+   "word4": 1,
+   "catalog": null
+  },
+  {
+   "sample_id": 0,
+   "name": "hit5",
+   "pitch": 0,
+   "word2": 0,
+   "word3": 26577,
+   "word4": 2,
+   "catalog": null
+  },
+  {
+   "sample_id": 0,
+   "name": "humn.13",
+   "pitch": -7,
+   "word2": 0,
+   "word3": 26578,
+   "word4": 0,
+   "catalog": null
+  }
+ ],
+ "pattern_bytes": 4446,
+ "pattern_hex": "0000ff7f9e3f00005f207f3e00003e3f7e3e4c110000010400000000ffebfffffa3500ffddffff4d3500ffdbfffffa3500ffd7fffffa35025400000000fffbffffad39007ffbffffad3900fffaffffad3900fff9ffffad39007ff9ffffad3900fff8ffffad3900fff7ffffad39007ff7ffffad3900fff6ffffad3900fff5ffffad39007ff5ffffad3900fff4ffffad39007ff4ffffc73b00fff3ffffad39007ff3ffffad3900fff2ffffad3900fff1ffffad39007ff1ffffad3900fff0ffffad3900ffefffffad39007fefffffad3900ffeeffffad3900ffedffffad3900ffebffffad39007febffffad3900ffeaffffad39007feaffffad3900ffe9ffffad39007fe9ffffad3900ffe8ffffad3900ffe7ffffad39007fe7ffffad3900ffe6ffffad39007fe6ffffad3900ffe5ffffad39007fe5ffffad3900001b0000ad3900000000e0000000000000ffe3ffffad39007fe3ffffad3900ffe2ffffad3900ffe1ffffad39007fe1ffffad3900001f0000ad390000000070000000000000ffdfffffad3900ffdeffffad3900ffddffffad3900ffdcffffad390000240000ad3900000000e0000000000000ffd7ffffad39007fd7ffffad3900ffd6ffffad39007fd6ffffad3900ffd5ffffad39007fd5ffffad3900ffd4ffffad3900ffd3ffffad39007fd3ffffad3900ffd2ffffad39007fd2ffffad3900ffd1ffffad39007fd1ffffad3900ffd0ffffad3900ffc7ffffad39007fc7ffffad3900ffc6ffffad3900ffc5ffffad39007fc5ffffad3900ffc4ffffad3900ffc3ffffad39007fc3ffffad3900ffc2ffffad3900ffc1ffffad39007fc1ffffad3900ffc0ffffad390000400000ad3900000000e000000000000080400000ad3900000000e000000000000000410000ad3900000000e000000000000040410000ad3900000000e00000000000007fbeffffad39005fbeffffad39003fbeffffad39002fbeffffad39001fbeffffad3900f0410000ad3900000000e00000000000035a00000000fffbffff6e33007ffbffff6d3300fffaffff6e33007ffaffff6d3300fff9ffff6e33007ff9ffff6d3300fff8ffff6d33007ff8ffff6d3300fff7ffff6e33007ff7ffff6d3300fff6ffff6e33007ff6ffff6d3300fff5ffff6e33007ff5ffff6d3300fff4ffff6e3300fff3ffff6e33007ff3ffff6d3300fff2ffff6e33007ff2ffff6d3300fff1ffff6e33007ff1ffff6d3300fff0ffff6e3300ffefffff1e33007fefffff1e3300ffeeffff1e33007feeffff1e3300ffedffff1e33007fedffff1e3300ffebffff6e33007febffff6d3300ffeaffff6e33007feaffff6d3300ffe9ffff6e33007fe9ffff6d3300ffe8ffff6e33007fe8ffff6d3300ffe7ffff1e33007fe7ffff1e3300ffe6ffff1e33007fe6ffff1e3300ffe5ffff1e33007fe5ffff1e3300ffe3ffff1e33007fe3ffff1e3300ffe2ffff1e33007fe2ffff1e3300ffe1ffff1e33007fe1ffff1e3300ffe0ffff1e3300ffdfffff1e33007fdfffff1e3300ffdeffff1e33007fdeffff1e3300ffddffff1e33007fddffff1e3300ffdcffff1e33007fdcffff1e3300002400006e330000000060000000000000ffd7ffff6e33007fd7ffff6d3300ffd6ffff6e33007fd6ffff6d3300ffd5ffff6e33007fd5ffff6d3300ffd4ffff6e33007fd4ffff6d3300ffd3ffff1e33007fd3ffff1e3300ffd2ffff1e33007fd2ffff1e3300ffd1ffff1e33007fd1ffff1e3300ffd0ffff1e33007fd0ffff1e3300ffc7ffff1e33007fc7ffff1e3300ffc6ffff1e33007fc6ffff1e3300ffc5ffff1e33007fc5ffff1e3300ffc4ffff1e33007fc4ffff1e3300ffc3ffff1e33007fc3ffff1e3300ffc2ffff1e33007fc2ffff1e3300ffc1ffff1e33007fc1ffff1e3300ffc0ffff1e33007fc0ffff1e33041700000000fffcffff923900ffefffffcb3800ffedffffcb3800ffe7ffffcb3800ffe6ffffcb3800ffe5ffffcb3800ffe3ffff353600ffe2ffff373600ffe1ffff353600ffe0ffff373600ffdfffff353600ffdeffff373600ffddffff353600ffdcffff373600ffbfffffcb38007fbfffffcb3800ffbeffffcb38007fbeffffcb38005fbeffffcb38003fbeffffcb38002fbeffffcb38001fbeffffcb3800f0410000cb3800000000600000000000054900000000fffbffff7c3900fff9ffff7c3900fff7ffffc63b007ff7ffffc63b00fff6ffffc63b007ff6ffffc73b00fff5ffffc63b007ff5ffffc63b00fff4ffffc63b00fff3ffffc63b007ff3ffffc63b00fff2ffffc63b007ff2ffffc63b00fff1ffffc63b007ff1ffffc63b00fff0ffffc63b007ff0ffffc63b00ffefffffc63b007fefffffc63b00ffeeffffc63b007feeffffc63b00ffedffffc63b007fedffffc63b00ffebffffc63b007febffffc63b00ffeaffffc63b007feaffffc63b00ffe9ffffc63b007fe9ffffc63b00ffe8ffffc63b007fe8ffffc73b00ffe7ffffc63b007fe7ffffc63b00ffe6ffffc63b007fe6ffffc63b00ffe5ffffc63b007fe5ffffc63b00ffe4ffffc73b00ffdfffffc63b007fdfffffc63b00ffdeffffc63b007fdeffffc63b00ffddffffc63b007fddffffc63b00ffdcffffc63b007fdcffffc73b00ffdbffffc73b007fdbffffc73b00ffdaffffc73b00bfdaffffc73b007fdaffffc73b00ffd9ffffc73b007fd9ffffc73b00ffd8ffffc73b00bfd8ffffc73b007fd8ffffc73b00ffd7ffffc63b007fd7ffffc63b00ffd6ffffc63b007fd6ffffc63b00ffd5ffffc63b007fd5ffffc63b00ffd4ffffc63b007fd4ffffc73b00ffbfffffc63b007fbfffffc63b00ffbeffffc63b007fbeffffc63b005fbeffffc63b003fbeffffc63b002fbeffffc63b001fbeffffc63b00f0410000c63b00000000600000000000061c00000000fffbffffea4100fffaffffea4100fff9ffffea4100fff8ffffe34100fff0ffffe34100ffefffffea4100ffeeffffea4100ffedffffea4100ffecffffe34100ffe8ffffe34100ffe4ffffe34100ffdcffffe34100ffdbffffea41007fdbffffea4100ffdaffffea4100bfdaffffea41007fdaffffea4100ffd9ffffea41007fd9ffffea4100ffd8ffffea4100bfd8ffffea41007fd8ffffea4100ffd4ffffe34100ffd3ffffea4100ffd2ffffea4100ffd1ffffea4100ffd0ffffe34100ffcfffffea41070a000000007ffdffff433800ffefffffd14100ffedffffd14100ffe7ffffd14100ffe5ffffd141007fd8ffffc23700ffd3ffffd14100ffd1ffffd14100ffcfffffd14100ffc0ffffb73708050000000037feffff943900ffeeffffd24100ffecffffd241007fd8ffffc33700ffc0ffffb837090a00000000fffdffffa64100fff7ffff413c00000c000028410000000000000000cd24000014000028410000000000000000cd24000018000028410000000000000000cd2400ffdbffffdb37000028000028410000000000000000cd2400002c000028410000000000000000cd24000030000028410000000000000000cd24000034000028410000000000000000cd240a0a00000000fffdffffa74100fff7ffff423c00000c000029410000000000000000cd24000014000029410000000000000000cd24000018000029410000000000000000cd2400ffdbffffdc37000028000029410000000000000000cd2400002c000029410000000000000000cd24000030000029410000000000000000cd24000034000029410000000000000000cd240b03000000007ffdffffdb3f00fff4ffffc03700ffecffffc0370c03000000007ffdffffdc3f00fff4ffffc13700ffecffffc1370d1e00000000ffffffffe73f00fff3ffff773500fff2ffff763500fff1ffff773500fff0ffff763500ffebffff773500ffeaffff763500ffe9ffff773500ffe8ffff763500ffe7ffff773500ffe6ffff763500ffe5ffff773500ffd7ffff773500ffd6ffff763500ffd5ffff773500ffd4ffff763500ffd3ffff773500ffd2ffff763500ffd1ffff773500ffd0ffff76350000380000763500000000c800000000000000390000763500000000c8000000000000003a0000763500000000c8000000000000803a0000763500000000c8000000000000ffc4ffff763500003c0000763500000000d8000000000000003d0000763500000000d8000000000000003e0000763500000000d8000000000000003f0000763500000000d800000000000000400000763500000000d800000000000e1e00000000ffffffffe83f00fff3ffff763500fff2ffff743500fff1ffff763500fff0ffff743500ffebffff763500ffeaffff743500ffe9ffff763500ffe8ffff743500ffe7ffff763500ffe6ffff743500ffe5ffff763500ffd7ffff763500ffd6ffff743500ffd5ffff763500ffd4ffff743500ffd3ffff763500ffd2ffff743500ffd1ffff763500ffd0ffff74350000380000743500000000c800000000000000390000743500000000c8000000000000003a0000743500000000c8000000000000803a0000743500000000c8000000000000ffc4ffff743500003c0000743500000000d8000000000000003d0000743500000000d8000000000000003e0000743500000000d8000000000000003f0000743500000000d800000000000000400000743500000000d800000000000f2000000000000c0000d73f0000000088000000000000000d0000d93f0000000088000000000000000e0000d73f0000000088000000000000f80e0000d93f780000000000000000000000140000d73f000000008800000000000000150000d93f000000008800000000000000160000d73f0000000088000000000000f8160000d93f780000000000000000000000180000d73f000000008800000000000000190000d93f0000000088000000000000001a0000d73f0000000088000000000000f81a0000d93f780000000000000000000000280000d73f000000008800000000000000290000d93f0000000088000000000000002a0000d73f0000000088000000000000f82a0000d93f7800000000000000000000002c0000d73f0000000088000000000000002d0000d93f0000000088000000000000002e0000d73f0000000088000000000000f82e0000d93f780000000000000000000000300000d73f000000008800000000000000310000d93f000000008800000000000000320000d73f0000000088000000000000f8320000d93f780000000000000000000000340000d73f000000008800000000000000350000d93f000000008800000000000000360000d73f000000008800000000000000370000d93f780000000000000000000000380000d73f000000008800000000000000390000d73f000000008800000000e800003a0000d73f00000000880000009ad100003b0000d73f0000000088000000cdc4102000000000000c0000d83f0000000088000000000000000d0000da3f0000000088000000000000000e0000d83f0000000088000000000000f80e0000da3f780000000000000000000000140000d83f000000008800000000000000150000da3f000000008800000000000000160000d83f0000000088000000000000f8160000da3f780000000000000000000000180000d83f000000008800000000000000190000da3f0000000088000000000000001a0000d83f0000000088000000000000f81a0000da3f780000000000000000000000280000d83f000000008800000000000000290000da3f0000000088000000000000002a0000d83f0000000088000000000000f82a0000da3f7800000000000000000000002c0000d83f0000000088000000000000002d0000da3f0000000088000000000000002e0000d83f0000000088000000000000f82e0000da3f780000000000000000000000300000d83f000000008800000000000000310000da3f000000008800000000000000320000d83f0000000088000000000000f8320000da3f780000000000000000000000340000d83f000000008800000000000000350000da3f000000008800000000000000360000d83f000000008800000000000000370000da3f780000000000000000000000380000d83f000000008800000000000000390000d83f000000008800000067e600003a0000d83f000000008800000001d000003b0000d83f0000000088000000cec41100000000",
+ "pattern_sections": [
+  {
+   "index": 1,
+   "count": 4,
+   "notes": [
+    {
+     "kind": "clip",
+     "sample_id": 13818,
+     "start_bar": 41.0,
+     "block": 21,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13645,
+     "start_bar": 69.0,
+     "block": 35,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13818,
+     "start_bar": 73.0,
+     "block": 37,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13818,
+     "start_bar": 81.0,
+     "block": 41,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "count": 84,
+   "notes": [
+    {
+     "kind": "clip",
+     "sample_id": 14765,
+     "start_bar": 9.0,
+     "block": 5,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 14765,
+     "start_bar": 10.0,
+     "block": 5,
+     "byte0": 0,
+     "byte1": 127,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 14765,
+     "start_bar": 11.0,
+     "block": 6,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 14765,
+     "start_bar": 13.0,
+     "block": 7,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 14765,
+     "start_bar": 14.0,
+     "block": 7,
+     "byte0": 0,
+     "byte1": 127,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 14765,
+     "start_bar": 15.0,
+     "block": 8,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 14765,
+     "start_bar": 17.0,
+     "block": 9,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 14765,
+     "start_bar": 18.0,
+     "block": 9,
+     "byte0": 0,
+     "byte1": 127,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 14765,
+     "start_bar": 19.0,
+     "block": 10,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 14765,
+     "start_bar": 21.0,
+     "block": 11,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 14765,
+     "start_bar": 22.0,
+     "block": 11,
+     "byte0": 0,
+     "byte1": 127,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 14765,
+     "start_bar": 23.0,
+     "block": 12,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 15303,
+     "start_bar": 24.0,
+     "block": 12,
+     "byte0": 0,
+     "byte1": 127,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 14765,
+     "start_bar": 25.0,
+     "block": 13,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 14765,
+     "start_bar": 26.0,
+     "block": 13,
+     "byte0": 0,
+     "byte1": 127,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 14765,
+     "start_bar": 27.0,
+     "block": 14,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 14765,
+     "start_bar": 29.0,
+     "block": 15,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 14765,
+     "start_bar": 30.0,
+     "block": 15,
+     "byte0": 0,
+     "byte1": 127,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 14765,
+     "start_bar": 31.0,
+     "block": 16,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 14765,
+     "start_bar": 33.0,
+     "block": 17,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 14765,
+     "start_bar": 34.0,
+     "block": 17,
+     "byte0": 0,
+     "byte1": 127,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 14765,
+     "start_bar": 35.0,
+     "block": 18,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 14765,
+     "start_bar": 37.0,
+     "block": 19,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 14765,
+     "start_bar": 41.0,
+     "block": 21,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 14765,
+     "start_bar": 42.0,
+     "block": 21,
+     "byte0": 0,
+     "byte1": 127,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 14765,
+     "start_bar": 43.0,
+     "block": 22,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 14765,
+     "start_bar": 44.0,
+     "block": 22,
+     "byte0": 0,
+     "byte1": 127,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 14765,
+     "start_bar": 45.0,
+     "block": 23,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 14765,
+     "start_bar": 46.0,
+     "block": 23,
+     "byte0": 0,
+     "byte1": 127,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 14765,
+     "start_bar": 47.0,
+     "block": 24,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 14765,
+     "start_bar": 49.0,
+     "block": 25,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 14765,
+     "start_bar": 50.0,
+     "block": 25,
+     "byte0": 0,
+     "byte1": 127,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 14765,
+     "start_bar": 51.0,
+     "block": 26,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 14765,
+     "start_bar": 52.0,
+     "block": 26,
+     "byte0": 0,
+     "byte1": 127,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 14765,
+     "start_bar": 53.0,
+     "block": 27,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 14765,
+     "start_bar": 54.0,
+     "block": 27,
+     "byte0": 0,
+     "byte1": 127,
+     "word": 65535
+    },
+    {
+     "kind": "hit",
+     "sample_id": 14765,
+     "start_bar": 55.0,
+     "block": null,
+     "byte0": 0,
+     "byte1": 0,
+     "word": 0
+    },
+    {
+     "kind": "clip",
+     "sample_id": 14765,
+     "start_bar": 57.0,
+     "block": 29,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 14765,
+     "start_bar": 58.0,
+     "block": 29,
+     "byte0": 0,
+     "byte1": 127,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 14765,
+     "start_bar": 59.0,
+     "block": 30,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 14765,
+     "start_bar": 61.0,
+     "block": 31,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 14765,
+     "start_bar": 62.0,
+     "block": 31,
+     "byte0": 0,
+     "byte1": 127,
+     "word": 65535
+    },
+    {
+     "kind": "hit",
+     "sample_id": 14765,
+     "start_bar": 63.0,
+     "block": null,
+     "byte0": 0,
+     "byte1": 0,
+     "word": 0
+    },
+    {
+     "kind": "clip",
+     "sample_id": 14765,
+     "start_bar": 65.0,
+     "block": 33,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 14765,
+     "start_bar": 67.0,
+     "block": 34,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 14765,
+     "start_bar": 69.0,
+     "block": 35,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 14765,
+     "start_bar": 71.0,
+     "block": 36,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "hit",
+     "sample_id": 14765,
+     "start_bar": 73.0,
+     "block": null,
+     "byte0": 0,
+     "byte1": 0,
+     "word": 0
+    },
+    {
+     "kind": "clip",
+     "sample_id": 14765,
+     "start_bar": 81.0,
+     "block": 41,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 14765,
+     "start_bar": 82.0,
+     "block": 41,
+     "byte0": 0,
+     "byte1": 127,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 14765,
+     "start_bar": 83.0,
+     "block": 42,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 14765,
+     "start_bar": 84.0,
+     "block": 42,
+     "byte0": 0,
+     "byte1": 127,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 14765,
+     "start_bar": 85.0,
+     "block": 43,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 14765,
+     "start_bar": 86.0,
+     "block": 43,
+     "byte0": 0,
+     "byte1": 127,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 14765,
+     "start_bar": 87.0,
+     "block": 44,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 14765,
+     "start_bar": 89.0,
+     "block": 45,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 14765,
+     "start_bar": 90.0,
+     "block": 45,
+     "byte0": 0,
+     "byte1": 127,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 14765,
+     "start_bar": 91.0,
+     "block": 46,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 14765,
+     "start_bar": 92.0,
+     "block": 46,
+     "byte0": 0,
+     "byte1": 127,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 14765,
+     "start_bar": 93.0,
+     "block": 47,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 14765,
+     "start_bar": 94.0,
+     "block": 47,
+     "byte0": 0,
+     "byte1": 127,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 14765,
+     "start_bar": 95.0,
+     "block": 48,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 14765,
+     "start_bar": 113.0,
+     "block": 57,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 14765,
+     "start_bar": 114.0,
+     "block": 57,
+     "byte0": 0,
+     "byte1": 127,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 14765,
+     "start_bar": 115.0,
+     "block": 58,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 14765,
+     "start_bar": 117.0,
+     "block": 59,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 14765,
+     "start_bar": 118.0,
+     "block": 59,
+     "byte0": 0,
+     "byte1": 127,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 14765,
+     "start_bar": 119.0,
+     "block": 60,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 14765,
+     "start_bar": 121.0,
+     "block": 61,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 14765,
+     "start_bar": 122.0,
+     "block": 61,
+     "byte0": 0,
+     "byte1": 127,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 14765,
+     "start_bar": 123.0,
+     "block": 62,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 14765,
+     "start_bar": 125.0,
+     "block": 63,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 14765,
+     "start_bar": 126.0,
+     "block": 63,
+     "byte0": 0,
+     "byte1": 127,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 14765,
+     "start_bar": 127.0,
+     "block": 64,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "hit",
+     "sample_id": 14765,
+     "start_bar": 129.0,
+     "block": null,
+     "byte0": 0,
+     "byte1": 0,
+     "word": 0
+    },
+    {
+     "kind": "hit",
+     "sample_id": 14765,
+     "start_bar": 130.0,
+     "block": null,
+     "byte0": 0,
+     "byte1": 128,
+     "word": 0
+    },
+    {
+     "kind": "hit",
+     "sample_id": 14765,
+     "start_bar": 131.0,
+     "block": null,
+     "byte0": 0,
+     "byte1": 0,
+     "word": 0
+    },
+    {
+     "kind": "hit",
+     "sample_id": 14765,
+     "start_bar": 131.5,
+     "block": null,
+     "byte0": 0,
+     "byte1": 64,
+     "word": 0
+    },
+    {
+     "kind": "clip",
+     "sample_id": 14765,
+     "start_bar": 132.0,
+     "block": 66,
+     "byte0": 0,
+     "byte1": 127,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 14765,
+     "start_bar": 132.25,
+     "block": 66,
+     "byte0": 0,
+     "byte1": 95,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 14765,
+     "start_bar": 132.5,
+     "block": 66,
+     "byte0": 0,
+     "byte1": 63,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 14765,
+     "start_bar": 132.625,
+     "block": 66,
+     "byte0": 0,
+     "byte1": 47,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 14765,
+     "start_bar": 132.75,
+     "block": 66,
+     "byte0": 0,
+     "byte1": 31,
+     "word": 65535
+    },
+    {
+     "kind": "hit",
+     "sample_id": 14765,
+     "start_bar": 132.875,
+     "block": null,
+     "byte0": 0,
+     "byte1": 240,
+     "word": 0
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "count": 90,
+   "notes": [
+    {
+     "kind": "clip",
+     "sample_id": 13166,
+     "start_bar": 9.0,
+     "block": 5,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13165,
+     "start_bar": 10.0,
+     "block": 5,
+     "byte0": 0,
+     "byte1": 127,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13166,
+     "start_bar": 11.0,
+     "block": 6,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13165,
+     "start_bar": 12.0,
+     "block": 6,
+     "byte0": 0,
+     "byte1": 127,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13166,
+     "start_bar": 13.0,
+     "block": 7,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13165,
+     "start_bar": 14.0,
+     "block": 7,
+     "byte0": 0,
+     "byte1": 127,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13165,
+     "start_bar": 15.0,
+     "block": 8,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13165,
+     "start_bar": 16.0,
+     "block": 8,
+     "byte0": 0,
+     "byte1": 127,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13166,
+     "start_bar": 17.0,
+     "block": 9,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13165,
+     "start_bar": 18.0,
+     "block": 9,
+     "byte0": 0,
+     "byte1": 127,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13166,
+     "start_bar": 19.0,
+     "block": 10,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13165,
+     "start_bar": 20.0,
+     "block": 10,
+     "byte0": 0,
+     "byte1": 127,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13166,
+     "start_bar": 21.0,
+     "block": 11,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13165,
+     "start_bar": 22.0,
+     "block": 11,
+     "byte0": 0,
+     "byte1": 127,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13166,
+     "start_bar": 23.0,
+     "block": 12,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13166,
+     "start_bar": 25.0,
+     "block": 13,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13165,
+     "start_bar": 26.0,
+     "block": 13,
+     "byte0": 0,
+     "byte1": 127,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13166,
+     "start_bar": 27.0,
+     "block": 14,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13165,
+     "start_bar": 28.0,
+     "block": 14,
+     "byte0": 0,
+     "byte1": 127,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13166,
+     "start_bar": 29.0,
+     "block": 15,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13165,
+     "start_bar": 30.0,
+     "block": 15,
+     "byte0": 0,
+     "byte1": 127,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13166,
+     "start_bar": 31.0,
+     "block": 16,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13086,
+     "start_bar": 33.0,
+     "block": 17,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13086,
+     "start_bar": 34.0,
+     "block": 17,
+     "byte0": 0,
+     "byte1": 127,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13086,
+     "start_bar": 35.0,
+     "block": 18,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13086,
+     "start_bar": 36.0,
+     "block": 18,
+     "byte0": 0,
+     "byte1": 127,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13086,
+     "start_bar": 37.0,
+     "block": 19,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13086,
+     "start_bar": 38.0,
+     "block": 19,
+     "byte0": 0,
+     "byte1": 127,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13166,
+     "start_bar": 41.0,
+     "block": 21,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13165,
+     "start_bar": 42.0,
+     "block": 21,
+     "byte0": 0,
+     "byte1": 127,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13166,
+     "start_bar": 43.0,
+     "block": 22,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13165,
+     "start_bar": 44.0,
+     "block": 22,
+     "byte0": 0,
+     "byte1": 127,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13166,
+     "start_bar": 45.0,
+     "block": 23,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13165,
+     "start_bar": 46.0,
+     "block": 23,
+     "byte0": 0,
+     "byte1": 127,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13166,
+     "start_bar": 47.0,
+     "block": 24,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13165,
+     "start_bar": 48.0,
+     "block": 24,
+     "byte0": 0,
+     "byte1": 127,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13086,
+     "start_bar": 49.0,
+     "block": 25,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13086,
+     "start_bar": 50.0,
+     "block": 25,
+     "byte0": 0,
+     "byte1": 127,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13086,
+     "start_bar": 51.0,
+     "block": 26,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13086,
+     "start_bar": 52.0,
+     "block": 26,
+     "byte0": 0,
+     "byte1": 127,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13086,
+     "start_bar": 53.0,
+     "block": 27,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13086,
+     "start_bar": 54.0,
+     "block": 27,
+     "byte0": 0,
+     "byte1": 127,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13086,
+     "start_bar": 57.0,
+     "block": 29,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13086,
+     "start_bar": 58.0,
+     "block": 29,
+     "byte0": 0,
+     "byte1": 127,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13086,
+     "start_bar": 59.0,
+     "block": 30,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13086,
+     "start_bar": 60.0,
+     "block": 30,
+     "byte0": 0,
+     "byte1": 127,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13086,
+     "start_bar": 61.0,
+     "block": 31,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13086,
+     "start_bar": 62.0,
+     "block": 31,
+     "byte0": 0,
+     "byte1": 127,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13086,
+     "start_bar": 63.0,
+     "block": 32,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13086,
+     "start_bar": 65.0,
+     "block": 33,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13086,
+     "start_bar": 66.0,
+     "block": 33,
+     "byte0": 0,
+     "byte1": 127,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13086,
+     "start_bar": 67.0,
+     "block": 34,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13086,
+     "start_bar": 68.0,
+     "block": 34,
+     "byte0": 0,
+     "byte1": 127,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13086,
+     "start_bar": 69.0,
+     "block": 35,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13086,
+     "start_bar": 70.0,
+     "block": 35,
+     "byte0": 0,
+     "byte1": 127,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13086,
+     "start_bar": 71.0,
+     "block": 36,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13086,
+     "start_bar": 72.0,
+     "block": 36,
+     "byte0": 0,
+     "byte1": 127,
+     "word": 65535
+    },
+    {
+     "kind": "hit",
+     "sample_id": 13166,
+     "start_bar": 73.0,
+     "block": null,
+     "byte0": 0,
+     "byte1": 0,
+     "word": 0
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13166,
+     "start_bar": 81.0,
+     "block": 41,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13165,
+     "start_bar": 82.0,
+     "block": 41,
+     "byte0": 0,
+     "byte1": 127,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13166,
+     "start_bar": 83.0,
+     "block": 42,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13165,
+     "start_bar": 84.0,
+     "block": 42,
+     "byte0": 0,
+     "byte1": 127,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13166,
+     "start_bar": 85.0,
+     "block": 43,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13165,
+     "start_bar": 86.0,
+     "block": 43,
+     "byte0": 0,
+     "byte1": 127,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13166,
+     "start_bar": 87.0,
+     "block": 44,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13165,
+     "start_bar": 88.0,
+     "block": 44,
+     "byte0": 0,
+     "byte1": 127,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13086,
+     "start_bar": 89.0,
+     "block": 45,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13086,
+     "start_bar": 90.0,
+     "block": 45,
+     "byte0": 0,
+     "byte1": 127,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13086,
+     "start_bar": 91.0,
+     "block": 46,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13086,
+     "start_bar": 92.0,
+     "block": 46,
+     "byte0": 0,
+     "byte1": 127,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13086,
+     "start_bar": 93.0,
+     "block": 47,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13086,
+     "start_bar": 94.0,
+     "block": 47,
+     "byte0": 0,
+     "byte1": 127,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13086,
+     "start_bar": 95.0,
+     "block": 48,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13086,
+     "start_bar": 96.0,
+     "block": 48,
+     "byte0": 0,
+     "byte1": 127,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13086,
+     "start_bar": 113.0,
+     "block": 57,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13086,
+     "start_bar": 114.0,
+     "block": 57,
+     "byte0": 0,
+     "byte1": 127,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13086,
+     "start_bar": 115.0,
+     "block": 58,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13086,
+     "start_bar": 116.0,
+     "block": 58,
+     "byte0": 0,
+     "byte1": 127,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13086,
+     "start_bar": 117.0,
+     "block": 59,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13086,
+     "start_bar": 118.0,
+     "block": 59,
+     "byte0": 0,
+     "byte1": 127,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13086,
+     "start_bar": 119.0,
+     "block": 60,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13086,
+     "start_bar": 120.0,
+     "block": 60,
+     "byte0": 0,
+     "byte1": 127,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13086,
+     "start_bar": 121.0,
+     "block": 61,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13086,
+     "start_bar": 122.0,
+     "block": 61,
+     "byte0": 0,
+     "byte1": 127,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13086,
+     "start_bar": 123.0,
+     "block": 62,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13086,
+     "start_bar": 124.0,
+     "block": 62,
+     "byte0": 0,
+     "byte1": 127,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13086,
+     "start_bar": 125.0,
+     "block": 63,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13086,
+     "start_bar": 126.0,
+     "block": 63,
+     "byte0": 0,
+     "byte1": 127,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13086,
+     "start_bar": 127.0,
+     "block": 64,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13086,
+     "start_bar": 128.0,
+     "block": 64,
+     "byte0": 0,
+     "byte1": 127,
+     "word": 65535
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "count": 23,
+   "notes": [
+    {
+     "kind": "clip",
+     "sample_id": 14738,
+     "start_bar": 7.0,
+     "block": 4,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 14539,
+     "start_bar": 33.0,
+     "block": 17,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 14539,
+     "start_bar": 37.0,
+     "block": 19,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 14539,
+     "start_bar": 49.0,
+     "block": 25,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 14539,
+     "start_bar": 51.0,
+     "block": 26,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 14539,
+     "start_bar": 53.0,
+     "block": 27,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13877,
+     "start_bar": 57.0,
+     "block": 29,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13879,
+     "start_bar": 59.0,
+     "block": 30,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13877,
+     "start_bar": 61.0,
+     "block": 31,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13879,
+     "start_bar": 63.0,
+     "block": 32,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13877,
+     "start_bar": 65.0,
+     "block": 33,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13879,
+     "start_bar": 67.0,
+     "block": 34,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13877,
+     "start_bar": 69.0,
+     "block": 35,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13879,
+     "start_bar": 71.0,
+     "block": 36,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 14539,
+     "start_bar": 129.0,
+     "block": 65,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 14539,
+     "start_bar": 130.0,
+     "block": 65,
+     "byte0": 0,
+     "byte1": 127,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 14539,
+     "start_bar": 131.0,
+     "block": 66,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 14539,
+     "start_bar": 132.0,
+     "block": 66,
+     "byte0": 0,
+     "byte1": 127,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 14539,
+     "start_bar": 132.25,
+     "block": 66,
+     "byte0": 0,
+     "byte1": 95,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 14539,
+     "start_bar": 132.5,
+     "block": 66,
+     "byte0": 0,
+     "byte1": 63,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 14539,
+     "start_bar": 132.625,
+     "block": 66,
+     "byte0": 0,
+     "byte1": 47,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 14539,
+     "start_bar": 132.75,
+     "block": 66,
+     "byte0": 0,
+     "byte1": 31,
+     "word": 65535
+    },
+    {
+     "kind": "hit",
+     "sample_id": 14539,
+     "start_bar": 132.875,
+     "block": null,
+     "byte0": 0,
+     "byte1": 240,
+     "word": 0
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "count": 73,
+   "notes": [
+    {
+     "kind": "clip",
+     "sample_id": 14716,
+     "start_bar": 9.0,
+     "block": 5,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 14716,
+     "start_bar": 13.0,
+     "block": 7,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 15302,
+     "start_bar": 17.0,
+     "block": 9,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 15302,
+     "start_bar": 18.0,
+     "block": 9,
+     "byte0": 0,
+     "byte1": 127,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 15302,
+     "start_bar": 19.0,
+     "block": 10,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 15303,
+     "start_bar": 20.0,
+     "block": 10,
+     "byte0": 0,
+     "byte1": 127,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 15302,
+     "start_bar": 21.0,
+     "block": 11,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 15302,
+     "start_bar": 22.0,
+     "block": 11,
+     "byte0": 0,
+     "byte1": 127,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 15302,
+     "start_bar": 23.0,
+     "block": 12,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 15302,
+     "start_bar": 25.0,
+     "block": 13,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 15302,
+     "start_bar": 26.0,
+     "block": 13,
+     "byte0": 0,
+     "byte1": 127,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 15302,
+     "start_bar": 27.0,
+     "block": 14,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 15302,
+     "start_bar": 28.0,
+     "block": 14,
+     "byte0": 0,
+     "byte1": 127,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 15302,
+     "start_bar": 29.0,
+     "block": 15,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 15302,
+     "start_bar": 30.0,
+     "block": 15,
+     "byte0": 0,
+     "byte1": 127,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 15302,
+     "start_bar": 31.0,
+     "block": 16,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 15302,
+     "start_bar": 32.0,
+     "block": 16,
+     "byte0": 0,
+     "byte1": 127,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 15302,
+     "start_bar": 33.0,
+     "block": 17,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 15302,
+     "start_bar": 34.0,
+     "block": 17,
+     "byte0": 0,
+     "byte1": 127,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 15302,
+     "start_bar": 35.0,
+     "block": 18,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 15302,
+     "start_bar": 36.0,
+     "block": 18,
+     "byte0": 0,
+     "byte1": 127,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 15302,
+     "start_bar": 37.0,
+     "block": 19,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 15302,
+     "start_bar": 38.0,
+     "block": 19,
+     "byte0": 0,
+     "byte1": 127,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 15302,
+     "start_bar": 41.0,
+     "block": 21,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 15302,
+     "start_bar": 42.0,
+     "block": 21,
+     "byte0": 0,
+     "byte1": 127,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 15302,
+     "start_bar": 43.0,
+     "block": 22,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 15302,
+     "start_bar": 44.0,
+     "block": 22,
+     "byte0": 0,
+     "byte1": 127,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 15302,
+     "start_bar": 45.0,
+     "block": 23,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 15302,
+     "start_bar": 46.0,
+     "block": 23,
+     "byte0": 0,
+     "byte1": 127,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 15302,
+     "start_bar": 47.0,
+     "block": 24,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 15303,
+     "start_bar": 48.0,
+     "block": 24,
+     "byte0": 0,
+     "byte1": 127,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 15302,
+     "start_bar": 49.0,
+     "block": 25,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 15302,
+     "start_bar": 50.0,
+     "block": 25,
+     "byte0": 0,
+     "byte1": 127,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 15302,
+     "start_bar": 51.0,
+     "block": 26,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 15302,
+     "start_bar": 52.0,
+     "block": 26,
+     "byte0": 0,
+     "byte1": 127,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 15302,
+     "start_bar": 53.0,
+     "block": 27,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 15302,
+     "start_bar": 54.0,
+     "block": 27,
+     "byte0": 0,
+     "byte1": 127,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 15303,
+     "start_bar": 55.0,
+     "block": 28,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 15302,
+     "start_bar": 65.0,
+     "block": 33,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 15302,
+     "start_bar": 66.0,
+     "block": 33,
+     "byte0": 0,
+     "byte1": 127,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 15302,
+     "start_bar": 67.0,
+     "block": 34,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 15302,
+     "start_bar": 68.0,
+     "block": 34,
+     "byte0": 0,
+     "byte1": 127,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 15302,
+     "start_bar": 69.0,
+     "block": 35,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 15302,
+     "start_bar": 70.0,
+     "block": 35,
+     "byte0": 0,
+     "byte1": 127,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 15302,
+     "start_bar": 71.0,
+     "block": 36,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 15303,
+     "start_bar": 72.0,
+     "block": 36,
+     "byte0": 0,
+     "byte1": 127,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 15303,
+     "start_bar": 73.0,
+     "block": 37,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 15303,
+     "start_bar": 74.0,
+     "block": 37,
+     "byte0": 0,
+     "byte1": 127,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 15303,
+     "start_bar": 75.0,
+     "block": 38,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 15303,
+     "start_bar": 75.5,
+     "block": 38,
+     "byte0": 0,
+     "byte1": 191,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 15303,
+     "start_bar": 76.0,
+     "block": 38,
+     "byte0": 0,
+     "byte1": 127,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 15303,
+     "start_bar": 77.0,
+     "block": 39,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 15303,
+     "start_bar": 78.0,
+     "block": 39,
+     "byte0": 0,
+     "byte1": 127,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 15303,
+     "start_bar": 79.0,
+     "block": 40,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 15303,
+     "start_bar": 79.5,
+     "block": 40,
+     "byte0": 0,
+     "byte1": 191,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 15303,
+     "start_bar": 80.0,
+     "block": 40,
+     "byte0": 0,
+     "byte1": 127,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 15302,
+     "start_bar": 81.0,
+     "block": 41,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 15302,
+     "start_bar": 82.0,
+     "block": 41,
+     "byte0": 0,
+     "byte1": 127,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 15302,
+     "start_bar": 83.0,
+     "block": 42,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 15302,
+     "start_bar": 84.0,
+     "block": 42,
+     "byte0": 0,
+     "byte1": 127,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 15302,
+     "start_bar": 85.0,
+     "block": 43,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 15302,
+     "start_bar": 86.0,
+     "block": 43,
+     "byte0": 0,
+     "byte1": 127,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 15302,
+     "start_bar": 87.0,
+     "block": 44,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 15303,
+     "start_bar": 88.0,
+     "block": 44,
+     "byte0": 0,
+     "byte1": 127,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 15302,
+     "start_bar": 129.0,
+     "block": 65,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 15302,
+     "start_bar": 130.0,
+     "block": 65,
+     "byte0": 0,
+     "byte1": 127,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 15302,
+     "start_bar": 131.0,
+     "block": 66,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 15302,
+     "start_bar": 132.0,
+     "block": 66,
+     "byte0": 0,
+     "byte1": 127,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 15302,
+     "start_bar": 132.25,
+     "block": 66,
+     "byte0": 0,
+     "byte1": 95,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 15302,
+     "start_bar": 132.5,
+     "block": 66,
+     "byte0": 0,
+     "byte1": 63,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 15302,
+     "start_bar": 132.625,
+     "block": 66,
+     "byte0": 0,
+     "byte1": 47,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 15302,
+     "start_bar": 132.75,
+     "block": 66,
+     "byte0": 0,
+     "byte1": 31,
+     "word": 65535
+    },
+    {
+     "kind": "hit",
+     "sample_id": 15302,
+     "start_bar": 132.875,
+     "block": null,
+     "byte0": 0,
+     "byte1": 240,
+     "word": 0
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "count": 28,
+   "notes": [
+    {
+     "kind": "clip",
+     "sample_id": 16874,
+     "start_bar": 9.0,
+     "block": 5,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 16874,
+     "start_bar": 11.0,
+     "block": 6,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 16874,
+     "start_bar": 13.0,
+     "block": 7,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 16867,
+     "start_bar": 15.0,
+     "block": 8,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 16867,
+     "start_bar": 31.0,
+     "block": 16,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 16874,
+     "start_bar": 33.0,
+     "block": 17,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 16874,
+     "start_bar": 35.0,
+     "block": 18,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 16874,
+     "start_bar": 37.0,
+     "block": 19,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 16867,
+     "start_bar": 39.0,
+     "block": 20,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 16867,
+     "start_bar": 47.0,
+     "block": 24,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 16867,
+     "start_bar": 55.0,
+     "block": 28,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 16867,
+     "start_bar": 71.0,
+     "block": 36,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 16874,
+     "start_bar": 73.0,
+     "block": 37,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 16874,
+     "start_bar": 74.0,
+     "block": 37,
+     "byte0": 0,
+     "byte1": 127,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 16874,
+     "start_bar": 75.0,
+     "block": 38,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 16874,
+     "start_bar": 75.5,
+     "block": 38,
+     "byte0": 0,
+     "byte1": 191,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 16874,
+     "start_bar": 76.0,
+     "block": 38,
+     "byte0": 0,
+     "byte1": 127,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 16874,
+     "start_bar": 77.0,
+     "block": 39,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 16874,
+     "start_bar": 78.0,
+     "block": 39,
+     "byte0": 0,
+     "byte1": 127,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 16874,
+     "start_bar": 79.0,
+     "block": 40,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 16874,
+     "start_bar": 79.5,
+     "block": 40,
+     "byte0": 0,
+     "byte1": 191,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 16874,
+     "start_bar": 80.0,
+     "block": 40,
+     "byte0": 0,
+     "byte1": 127,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 16867,
+     "start_bar": 87.0,
+     "block": 44,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 16874,
+     "start_bar": 89.0,
+     "block": 45,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 16874,
+     "start_bar": 91.0,
+     "block": 46,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 16874,
+     "start_bar": 93.0,
+     "block": 47,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 16867,
+     "start_bar": 95.0,
+     "block": 48,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 16874,
+     "start_bar": 97.0,
+     "block": 49,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "count": 10,
+   "notes": [
+    {
+     "kind": "clip",
+     "sample_id": 14403,
+     "start_bar": 6.0,
+     "block": 3,
+     "byte0": 0,
+     "byte1": 127,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 16849,
+     "start_bar": 33.0,
+     "block": 17,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 16849,
+     "start_bar": 37.0,
+     "block": 19,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 16849,
+     "start_bar": 49.0,
+     "block": 25,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 16849,
+     "start_bar": 53.0,
+     "block": 27,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 14274,
+     "start_bar": 80.0,
+     "block": 40,
+     "byte0": 0,
+     "byte1": 127,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 16849,
+     "start_bar": 89.0,
+     "block": 45,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 16849,
+     "start_bar": 93.0,
+     "block": 47,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 16849,
+     "start_bar": 97.0,
+     "block": 49,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 14263,
+     "start_bar": 127.0,
+     "block": 64,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    }
+   ]
+  },
+  {
+   "index": 8,
+   "count": 5,
+   "notes": [
+    {
+     "kind": "clip",
+     "sample_id": 14740,
+     "start_bar": 4.5625,
+     "block": 2,
+     "byte0": 0,
+     "byte1": 55,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 16850,
+     "start_bar": 35.0,
+     "block": 18,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 16850,
+     "start_bar": 39.0,
+     "block": 20,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 14275,
+     "start_bar": 80.0,
+     "block": 40,
+     "byte0": 0,
+     "byte1": 127,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 14264,
+     "start_bar": 127.0,
+     "block": 64,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    }
+   ]
+  },
+  {
+   "index": 9,
+   "count": 10,
+   "notes": [
+    {
+     "kind": "clip",
+     "sample_id": 16806,
+     "start_bar": 5.0,
+     "block": 3,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 15425,
+     "start_bar": 17.0,
+     "block": 9,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "hit",
+     "sample_id": 16680,
+     "start_bar": 25.0,
+     "block": null,
+     "byte0": 0,
+     "byte1": 0,
+     "word": 0
+    },
+    {
+     "kind": "hit",
+     "sample_id": 16680,
+     "start_bar": 41.0,
+     "block": null,
+     "byte0": 0,
+     "byte1": 0,
+     "word": 0
+    },
+    {
+     "kind": "hit",
+     "sample_id": 16680,
+     "start_bar": 49.0,
+     "block": null,
+     "byte0": 0,
+     "byte1": 0,
+     "word": 0
+    },
+    {
+     "kind": "clip",
+     "sample_id": 14299,
+     "start_bar": 73.0,
+     "block": 37,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "hit",
+     "sample_id": 16680,
+     "start_bar": 81.0,
+     "block": null,
+     "byte0": 0,
+     "byte1": 0,
+     "word": 0
+    },
+    {
+     "kind": "hit",
+     "sample_id": 16680,
+     "start_bar": 89.0,
+     "block": null,
+     "byte0": 0,
+     "byte1": 0,
+     "word": 0
+    },
+    {
+     "kind": "hit",
+     "sample_id": 16680,
+     "start_bar": 97.0,
+     "block": null,
+     "byte0": 0,
+     "byte1": 0,
+     "word": 0
+    },
+    {
+     "kind": "hit",
+     "sample_id": 16680,
+     "start_bar": 105.0,
+     "block": null,
+     "byte0": 0,
+     "byte1": 0,
+     "word": 0
+    }
+   ]
+  },
+  {
+   "index": 10,
+   "count": 10,
+   "notes": [
+    {
+     "kind": "clip",
+     "sample_id": 16807,
+     "start_bar": 5.0,
+     "block": 3,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 15426,
+     "start_bar": 17.0,
+     "block": 9,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "hit",
+     "sample_id": 16681,
+     "start_bar": 25.0,
+     "block": null,
+     "byte0": 0,
+     "byte1": 0,
+     "word": 0
+    },
+    {
+     "kind": "hit",
+     "sample_id": 16681,
+     "start_bar": 41.0,
+     "block": null,
+     "byte0": 0,
+     "byte1": 0,
+     "word": 0
+    },
+    {
+     "kind": "hit",
+     "sample_id": 16681,
+     "start_bar": 49.0,
+     "block": null,
+     "byte0": 0,
+     "byte1": 0,
+     "word": 0
+    },
+    {
+     "kind": "clip",
+     "sample_id": 14300,
+     "start_bar": 73.0,
+     "block": 37,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "hit",
+     "sample_id": 16681,
+     "start_bar": 81.0,
+     "block": null,
+     "byte0": 0,
+     "byte1": 0,
+     "word": 0
+    },
+    {
+     "kind": "hit",
+     "sample_id": 16681,
+     "start_bar": 89.0,
+     "block": null,
+     "byte0": 0,
+     "byte1": 0,
+     "word": 0
+    },
+    {
+     "kind": "hit",
+     "sample_id": 16681,
+     "start_bar": 97.0,
+     "block": null,
+     "byte0": 0,
+     "byte1": 0,
+     "word": 0
+    },
+    {
+     "kind": "hit",
+     "sample_id": 16681,
+     "start_bar": 105.0,
+     "block": null,
+     "byte0": 0,
+     "byte1": 0,
+     "word": 0
+    }
+   ]
+  },
+  {
+   "index": 11,
+   "count": 3,
+   "notes": [
+    {
+     "kind": "clip",
+     "sample_id": 16347,
+     "start_bar": 6.0,
+     "block": 3,
+     "byte0": 0,
+     "byte1": 127,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 14272,
+     "start_bar": 23.0,
+     "block": 12,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 14272,
+     "start_bar": 39.0,
+     "block": 20,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    }
+   ]
+  },
+  {
+   "index": 12,
+   "count": 3,
+   "notes": [
+    {
+     "kind": "clip",
+     "sample_id": 16348,
+     "start_bar": 6.0,
+     "block": 3,
+     "byte0": 0,
+     "byte1": 127,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 14273,
+     "start_bar": 23.0,
+     "block": 12,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 14273,
+     "start_bar": 39.0,
+     "block": 20,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    }
+   ]
+  },
+  {
+   "index": 13,
+   "count": 30,
+   "notes": [
+    {
+     "kind": "clip",
+     "sample_id": 16359,
+     "start_bar": 1.0,
+     "block": 1,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13687,
+     "start_bar": 25.0,
+     "block": 13,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13686,
+     "start_bar": 27.0,
+     "block": 14,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13687,
+     "start_bar": 29.0,
+     "block": 15,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13686,
+     "start_bar": 31.0,
+     "block": 16,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13687,
+     "start_bar": 41.0,
+     "block": 21,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13686,
+     "start_bar": 43.0,
+     "block": 22,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13687,
+     "start_bar": 45.0,
+     "block": 23,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13686,
+     "start_bar": 47.0,
+     "block": 24,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13687,
+     "start_bar": 49.0,
+     "block": 25,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13686,
+     "start_bar": 51.0,
+     "block": 26,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13687,
+     "start_bar": 53.0,
+     "block": 27,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13687,
+     "start_bar": 81.0,
+     "block": 41,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13686,
+     "start_bar": 83.0,
+     "block": 42,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13687,
+     "start_bar": 85.0,
+     "block": 43,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13686,
+     "start_bar": 87.0,
+     "block": 44,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13687,
+     "start_bar": 89.0,
+     "block": 45,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13686,
+     "start_bar": 91.0,
+     "block": 46,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13687,
+     "start_bar": 93.0,
+     "block": 47,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13686,
+     "start_bar": 95.0,
+     "block": 48,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "hit",
+     "sample_id": 13686,
+     "start_bar": 113.0,
+     "block": null,
+     "byte0": 0,
+     "byte1": 0,
+     "word": 0
+    },
+    {
+     "kind": "hit",
+     "sample_id": 13686,
+     "start_bar": 115.0,
+     "block": null,
+     "byte0": 0,
+     "byte1": 0,
+     "word": 0
+    },
+    {
+     "kind": "hit",
+     "sample_id": 13686,
+     "start_bar": 117.0,
+     "block": null,
+     "byte0": 0,
+     "byte1": 0,
+     "word": 0
+    },
+    {
+     "kind": "hit",
+     "sample_id": 13686,
+     "start_bar": 118.0,
+     "block": null,
+     "byte0": 0,
+     "byte1": 128,
+     "word": 0
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13686,
+     "start_bar": 119.0,
+     "block": 60,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "hit",
+     "sample_id": 13686,
+     "start_bar": 121.0,
+     "block": null,
+     "byte0": 0,
+     "byte1": 0,
+     "word": 0
+    },
+    {
+     "kind": "hit",
+     "sample_id": 13686,
+     "start_bar": 123.0,
+     "block": null,
+     "byte0": 0,
+     "byte1": 0,
+     "word": 0
+    },
+    {
+     "kind": "hit",
+     "sample_id": 13686,
+     "start_bar": 125.0,
+     "block": null,
+     "byte0": 0,
+     "byte1": 0,
+     "word": 0
+    },
+    {
+     "kind": "hit",
+     "sample_id": 13686,
+     "start_bar": 127.0,
+     "block": null,
+     "byte0": 0,
+     "byte1": 0,
+     "word": 0
+    },
+    {
+     "kind": "hit",
+     "sample_id": 13686,
+     "start_bar": 129.0,
+     "block": null,
+     "byte0": 0,
+     "byte1": 0,
+     "word": 0
+    }
+   ]
+  },
+  {
+   "index": 14,
+   "count": 30,
+   "notes": [
+    {
+     "kind": "clip",
+     "sample_id": 16360,
+     "start_bar": 1.0,
+     "block": 1,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13686,
+     "start_bar": 25.0,
+     "block": 13,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13684,
+     "start_bar": 27.0,
+     "block": 14,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13686,
+     "start_bar": 29.0,
+     "block": 15,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13684,
+     "start_bar": 31.0,
+     "block": 16,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13686,
+     "start_bar": 41.0,
+     "block": 21,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13684,
+     "start_bar": 43.0,
+     "block": 22,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13686,
+     "start_bar": 45.0,
+     "block": 23,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13684,
+     "start_bar": 47.0,
+     "block": 24,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13686,
+     "start_bar": 49.0,
+     "block": 25,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13684,
+     "start_bar": 51.0,
+     "block": 26,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13686,
+     "start_bar": 53.0,
+     "block": 27,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13686,
+     "start_bar": 81.0,
+     "block": 41,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13684,
+     "start_bar": 83.0,
+     "block": 42,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13686,
+     "start_bar": 85.0,
+     "block": 43,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13684,
+     "start_bar": 87.0,
+     "block": 44,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13686,
+     "start_bar": 89.0,
+     "block": 45,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13684,
+     "start_bar": 91.0,
+     "block": 46,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13686,
+     "start_bar": 93.0,
+     "block": 47,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13684,
+     "start_bar": 95.0,
+     "block": 48,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "hit",
+     "sample_id": 13684,
+     "start_bar": 113.0,
+     "block": null,
+     "byte0": 0,
+     "byte1": 0,
+     "word": 0
+    },
+    {
+     "kind": "hit",
+     "sample_id": 13684,
+     "start_bar": 115.0,
+     "block": null,
+     "byte0": 0,
+     "byte1": 0,
+     "word": 0
+    },
+    {
+     "kind": "hit",
+     "sample_id": 13684,
+     "start_bar": 117.0,
+     "block": null,
+     "byte0": 0,
+     "byte1": 0,
+     "word": 0
+    },
+    {
+     "kind": "hit",
+     "sample_id": 13684,
+     "start_bar": 118.0,
+     "block": null,
+     "byte0": 0,
+     "byte1": 128,
+     "word": 0
+    },
+    {
+     "kind": "clip",
+     "sample_id": 13684,
+     "start_bar": 119.0,
+     "block": 60,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "hit",
+     "sample_id": 13684,
+     "start_bar": 121.0,
+     "block": null,
+     "byte0": 0,
+     "byte1": 0,
+     "word": 0
+    },
+    {
+     "kind": "hit",
+     "sample_id": 13684,
+     "start_bar": 123.0,
+     "block": null,
+     "byte0": 0,
+     "byte1": 0,
+     "word": 0
+    },
+    {
+     "kind": "hit",
+     "sample_id": 13684,
+     "start_bar": 125.0,
+     "block": null,
+     "byte0": 0,
+     "byte1": 0,
+     "word": 0
+    },
+    {
+     "kind": "hit",
+     "sample_id": 13684,
+     "start_bar": 127.0,
+     "block": null,
+     "byte0": 0,
+     "byte1": 0,
+     "word": 0
+    },
+    {
+     "kind": "hit",
+     "sample_id": 13684,
+     "start_bar": 129.0,
+     "block": null,
+     "byte0": 0,
+     "byte1": 0,
+     "word": 0
+    }
+   ]
+  },
+  {
+   "index": 15,
+   "count": 32,
+   "notes": [
+    {
+     "kind": "hit",
+     "sample_id": 16343,
+     "start_bar": 25.0,
+     "block": null,
+     "byte0": 0,
+     "byte1": 0,
+     "word": 0
+    },
+    {
+     "kind": "hit",
+     "sample_id": 16345,
+     "start_bar": 27.0,
+     "block": null,
+     "byte0": 0,
+     "byte1": 0,
+     "word": 0
+    },
+    {
+     "kind": "hit",
+     "sample_id": 16343,
+     "start_bar": 29.0,
+     "block": null,
+     "byte0": 0,
+     "byte1": 0,
+     "word": 0
+    },
+    {
+     "kind": "hit",
+     "sample_id": 16345,
+     "start_bar": 30.9375,
+     "block": null,
+     "byte0": 0,
+     "byte1": 248,
+     "word": 0
+    },
+    {
+     "kind": "hit",
+     "sample_id": 16343,
+     "start_bar": 41.0,
+     "block": null,
+     "byte0": 0,
+     "byte1": 0,
+     "word": 0
+    },
+    {
+     "kind": "hit",
+     "sample_id": 16345,
+     "start_bar": 43.0,
+     "block": null,
+     "byte0": 0,
+     "byte1": 0,
+     "word": 0
+    },
+    {
+     "kind": "hit",
+     "sample_id": 16343,
+     "start_bar": 45.0,
+     "block": null,
+     "byte0": 0,
+     "byte1": 0,
+     "word": 0
+    },
+    {
+     "kind": "hit",
+     "sample_id": 16345,
+     "start_bar": 46.9375,
+     "block": null,
+     "byte0": 0,
+     "byte1": 248,
+     "word": 0
+    },
+    {
+     "kind": "hit",
+     "sample_id": 16343,
+     "start_bar": 49.0,
+     "block": null,
+     "byte0": 0,
+     "byte1": 0,
+     "word": 0
+    },
+    {
+     "kind": "hit",
+     "sample_id": 16345,
+     "start_bar": 51.0,
+     "block": null,
+     "byte0": 0,
+     "byte1": 0,
+     "word": 0
+    },
+    {
+     "kind": "hit",
+     "sample_id": 16343,
+     "start_bar": 53.0,
+     "block": null,
+     "byte0": 0,
+     "byte1": 0,
+     "word": 0
+    },
+    {
+     "kind": "hit",
+     "sample_id": 16345,
+     "start_bar": 54.9375,
+     "block": null,
+     "byte0": 0,
+     "byte1": 248,
+     "word": 0
+    },
+    {
+     "kind": "hit",
+     "sample_id": 16343,
+     "start_bar": 81.0,
+     "block": null,
+     "byte0": 0,
+     "byte1": 0,
+     "word": 0
+    },
+    {
+     "kind": "hit",
+     "sample_id": 16345,
+     "start_bar": 83.0,
+     "block": null,
+     "byte0": 0,
+     "byte1": 0,
+     "word": 0
+    },
+    {
+     "kind": "hit",
+     "sample_id": 16343,
+     "start_bar": 85.0,
+     "block": null,
+     "byte0": 0,
+     "byte1": 0,
+     "word": 0
+    },
+    {
+     "kind": "hit",
+     "sample_id": 16345,
+     "start_bar": 86.9375,
+     "block": null,
+     "byte0": 0,
+     "byte1": 248,
+     "word": 0
+    },
+    {
+     "kind": "hit",
+     "sample_id": 16343,
+     "start_bar": 89.0,
+     "block": null,
+     "byte0": 0,
+     "byte1": 0,
+     "word": 0
+    },
+    {
+     "kind": "hit",
+     "sample_id": 16345,
+     "start_bar": 91.0,
+     "block": null,
+     "byte0": 0,
+     "byte1": 0,
+     "word": 0
+    },
+    {
+     "kind": "hit",
+     "sample_id": 16343,
+     "start_bar": 93.0,
+     "block": null,
+     "byte0": 0,
+     "byte1": 0,
+     "word": 0
+    },
+    {
+     "kind": "hit",
+     "sample_id": 16345,
+     "start_bar": 94.9375,
+     "block": null,
+     "byte0": 0,
+     "byte1": 248,
+     "word": 0
+    },
+    {
+     "kind": "hit",
+     "sample_id": 16343,
+     "start_bar": 97.0,
+     "block": null,
+     "byte0": 0,
+     "byte1": 0,
+     "word": 0
+    },
+    {
+     "kind": "hit",
+     "sample_id": 16345,
+     "start_bar": 99.0,
+     "block": null,
+     "byte0": 0,
+     "byte1": 0,
+     "word": 0
+    },
+    {
+     "kind": "hit",
+     "sample_id": 16343,
+     "start_bar": 101.0,
+     "block": null,
+     "byte0": 0,
+     "byte1": 0,
+     "word": 0
+    },
+    {
+     "kind": "hit",
+     "sample_id": 16345,
+     "start_bar": 102.9375,
+     "block": null,
+     "byte0": 0,
+     "byte1": 248,
+     "word": 0
+    },
+    {
+     "kind": "hit",
+     "sample_id": 16343,
+     "start_bar": 105.0,
+     "block": null,
+     "byte0": 0,
+     "byte1": 0,
+     "word": 0
+    },
+    {
+     "kind": "hit",
+     "sample_id": 16345,
+     "start_bar": 107.0,
+     "block": null,
+     "byte0": 0,
+     "byte1": 0,
+     "word": 0
+    },
+    {
+     "kind": "hit",
+     "sample_id": 16343,
+     "start_bar": 109.0,
+     "block": null,
+     "byte0": 0,
+     "byte1": 0,
+     "word": 0
+    },
+    {
+     "kind": "hit",
+     "sample_id": 16345,
+     "start_bar": 111.0,
+     "block": null,
+     "byte0": 0,
+     "byte1": 0,
+     "word": 0
+    },
+    {
+     "kind": "hit",
+     "sample_id": 16343,
+     "start_bar": 113.0,
+     "block": null,
+     "byte0": 0,
+     "byte1": 0,
+     "word": 0
+    },
+    {
+     "kind": "hit",
+     "sample_id": 16343,
+     "start_bar": 115.0,
+     "block": null,
+     "byte0": 0,
+     "byte1": 0,
+     "word": 0
+    },
+    {
+     "kind": "hit",
+     "sample_id": 16343,
+     "start_bar": 117.0,
+     "block": null,
+     "byte0": 0,
+     "byte1": 0,
+     "word": 0
+    },
+    {
+     "kind": "hit",
+     "sample_id": 16343,
+     "start_bar": 119.0,
+     "block": null,
+     "byte0": 0,
+     "byte1": 0,
+     "word": 0
+    }
+   ]
+  },
+  {
+   "index": 16,
+   "count": 32,
+   "notes": [
+    {
+     "kind": "hit",
+     "sample_id": 16344,
+     "start_bar": 25.0,
+     "block": null,
+     "byte0": 0,
+     "byte1": 0,
+     "word": 0
+    },
+    {
+     "kind": "hit",
+     "sample_id": 16346,
+     "start_bar": 27.0,
+     "block": null,
+     "byte0": 0,
+     "byte1": 0,
+     "word": 0
+    },
+    {
+     "kind": "hit",
+     "sample_id": 16344,
+     "start_bar": 29.0,
+     "block": null,
+     "byte0": 0,
+     "byte1": 0,
+     "word": 0
+    },
+    {
+     "kind": "hit",
+     "sample_id": 16346,
+     "start_bar": 30.9375,
+     "block": null,
+     "byte0": 0,
+     "byte1": 248,
+     "word": 0
+    },
+    {
+     "kind": "hit",
+     "sample_id": 16344,
+     "start_bar": 41.0,
+     "block": null,
+     "byte0": 0,
+     "byte1": 0,
+     "word": 0
+    },
+    {
+     "kind": "hit",
+     "sample_id": 16346,
+     "start_bar": 43.0,
+     "block": null,
+     "byte0": 0,
+     "byte1": 0,
+     "word": 0
+    },
+    {
+     "kind": "hit",
+     "sample_id": 16344,
+     "start_bar": 45.0,
+     "block": null,
+     "byte0": 0,
+     "byte1": 0,
+     "word": 0
+    },
+    {
+     "kind": "hit",
+     "sample_id": 16346,
+     "start_bar": 46.9375,
+     "block": null,
+     "byte0": 0,
+     "byte1": 248,
+     "word": 0
+    },
+    {
+     "kind": "hit",
+     "sample_id": 16344,
+     "start_bar": 49.0,
+     "block": null,
+     "byte0": 0,
+     "byte1": 0,
+     "word": 0
+    },
+    {
+     "kind": "hit",
+     "sample_id": 16346,
+     "start_bar": 51.0,
+     "block": null,
+     "byte0": 0,
+     "byte1": 0,
+     "word": 0
+    },
+    {
+     "kind": "hit",
+     "sample_id": 16344,
+     "start_bar": 53.0,
+     "block": null,
+     "byte0": 0,
+     "byte1": 0,
+     "word": 0
+    },
+    {
+     "kind": "hit",
+     "sample_id": 16346,
+     "start_bar": 54.9375,
+     "block": null,
+     "byte0": 0,
+     "byte1": 248,
+     "word": 0
+    },
+    {
+     "kind": "hit",
+     "sample_id": 16344,
+     "start_bar": 81.0,
+     "block": null,
+     "byte0": 0,
+     "byte1": 0,
+     "word": 0
+    },
+    {
+     "kind": "hit",
+     "sample_id": 16346,
+     "start_bar": 83.0,
+     "block": null,
+     "byte0": 0,
+     "byte1": 0,
+     "word": 0
+    },
+    {
+     "kind": "hit",
+     "sample_id": 16344,
+     "start_bar": 85.0,
+     "block": null,
+     "byte0": 0,
+     "byte1": 0,
+     "word": 0
+    },
+    {
+     "kind": "hit",
+     "sample_id": 16346,
+     "start_bar": 86.9375,
+     "block": null,
+     "byte0": 0,
+     "byte1": 248,
+     "word": 0
+    },
+    {
+     "kind": "hit",
+     "sample_id": 16344,
+     "start_bar": 89.0,
+     "block": null,
+     "byte0": 0,
+     "byte1": 0,
+     "word": 0
+    },
+    {
+     "kind": "hit",
+     "sample_id": 16346,
+     "start_bar": 91.0,
+     "block": null,
+     "byte0": 0,
+     "byte1": 0,
+     "word": 0
+    },
+    {
+     "kind": "hit",
+     "sample_id": 16344,
+     "start_bar": 93.0,
+     "block": null,
+     "byte0": 0,
+     "byte1": 0,
+     "word": 0
+    },
+    {
+     "kind": "hit",
+     "sample_id": 16346,
+     "start_bar": 94.9375,
+     "block": null,
+     "byte0": 0,
+     "byte1": 248,
+     "word": 0
+    },
+    {
+     "kind": "hit",
+     "sample_id": 16344,
+     "start_bar": 97.0,
+     "block": null,
+     "byte0": 0,
+     "byte1": 0,
+     "word": 0
+    },
+    {
+     "kind": "hit",
+     "sample_id": 16346,
+     "start_bar": 99.0,
+     "block": null,
+     "byte0": 0,
+     "byte1": 0,
+     "word": 0
+    },
+    {
+     "kind": "hit",
+     "sample_id": 16344,
+     "start_bar": 101.0,
+     "block": null,
+     "byte0": 0,
+     "byte1": 0,
+     "word": 0
+    },
+    {
+     "kind": "hit",
+     "sample_id": 16346,
+     "start_bar": 102.9375,
+     "block": null,
+     "byte0": 0,
+     "byte1": 248,
+     "word": 0
+    },
+    {
+     "kind": "hit",
+     "sample_id": 16344,
+     "start_bar": 105.0,
+     "block": null,
+     "byte0": 0,
+     "byte1": 0,
+     "word": 0
+    },
+    {
+     "kind": "hit",
+     "sample_id": 16346,
+     "start_bar": 107.0,
+     "block": null,
+     "byte0": 0,
+     "byte1": 0,
+     "word": 0
+    },
+    {
+     "kind": "hit",
+     "sample_id": 16344,
+     "start_bar": 109.0,
+     "block": null,
+     "byte0": 0,
+     "byte1": 0,
+     "word": 0
+    },
+    {
+     "kind": "hit",
+     "sample_id": 16346,
+     "start_bar": 111.0,
+     "block": null,
+     "byte0": 0,
+     "byte1": 0,
+     "word": 0
+    },
+    {
+     "kind": "hit",
+     "sample_id": 16344,
+     "start_bar": 113.0,
+     "block": null,
+     "byte0": 0,
+     "byte1": 0,
+     "word": 0
+    },
+    {
+     "kind": "hit",
+     "sample_id": 16344,
+     "start_bar": 115.0,
+     "block": null,
+     "byte0": 0,
+     "byte1": 0,
+     "word": 0
+    },
+    {
+     "kind": "hit",
+     "sample_id": 16344,
+     "start_bar": 117.0,
+     "block": null,
+     "byte0": 0,
+     "byte1": 0,
+     "word": 0
+    },
+    {
+     "kind": "hit",
+     "sample_id": 16344,
+     "start_bar": 119.0,
+     "block": null,
+     "byte0": 0,
+     "byte1": 0,
+     "word": 0
+    }
+   ]
+  },
+  {
+   "index": 17,
+   "count": 0,
+   "notes": []
+  }
+ ],
+ "events": [],
+ "tail_hex": []
+}

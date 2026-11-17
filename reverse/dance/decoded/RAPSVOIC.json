@@ -1,0 +1,6764 @@
+{
+ "file": "RAPSVOIC.MIX",
+ "signature": "0x0a06",
+ "tracks": 8,
+ "grid_bars": 702,
+ "song_bars": 444,
+ "bpm": 140,
+ "beats_per_bar": 4,
+ "seconds": 761.14,
+ "bank": {
+  "variant": "v6",
+  "signature": "0x0a06",
+  "nlists": 2,
+  "version": "DanceMachine 1.05",
+  "lists": [
+   [
+    {
+     "lo": 3400,
+     "hi": 3899,
+     "name": "DanceMachine Sample-Kit Vol. 1"
+    },
+    {
+     "lo": 3900,
+     "hi": 4500,
+     "name": "DanceMachine Sample-Kit Vol. 2"
+    }
+   ],
+   []
+  ]
+ },
+ "samples": {
+  "8": {
+   "id": 8,
+   "path": "SPECIAL/D5BS770.WAV",
+   "name": "nuts [Special] 2",
+   "box": null,
+   "category": "bass",
+   "number": "1",
+   "group": "nuts [Special]"
+  },
+  "1302": {
+   "id": 1302,
+   "path": "ad/bntu.pxd",
+   "name": "Snare fill Flange 2",
+   "box": null,
+   "category": "drum",
+   "number": "4",
+   "group": "Snare fill"
+  },
+  "1327": {
+   "id": 1327,
+   "path": "bp/axvu.pxd",
+   "name": "Hihat electric 1",
+   "box": null,
+   "category": "drum",
+   "number": "2",
+   "group": "Hihat"
+  },
+  "1328": {
+   "id": 1328,
+   "path": "bi/amku.pxd",
+   "name": "Rev. Cym. L",
+   "box": null,
+   "category": "drum",
+   "number": "1",
+   "group": "Rev."
+  },
+  "1329": {
+   "id": 1329,
+   "path": "bg/ajeu.pxd",
+   "name": "Rev. Cym. R",
+   "box": null,
+   "category": "drum",
+   "number": "1",
+   "group": "Rev."
+  },
+  "1330": {
+   "id": 1330,
+   "path": "be/agju.pxd",
+   "name": "Crash 2",
+   "box": null,
+   "category": "drum",
+   "number": "1",
+   "group": "Crash"
+  },
+  "1332": {
+   "id": 1332,
+   "path": "bt/bcvu.pxd",
+   "name": "Crash 4",
+   "box": null,
+   "category": "drum",
+   "number": "2",
+   "group": "Crash"
+  },
+  "1400": {
+   "id": 1400,
+   "path": "bu/becu.pxd",
+   "name": "Kick B Basic Groove",
+   "box": null,
+   "category": "drum",
+   "number": "2",
+   "group": "Kick B"
+  },
+  "1402": {
+   "id": 1402,
+   "path": "ba/aahu.pxd",
+   "name": "Kick B Fill",
+   "box": null,
+   "category": "drum",
+   "number": "1",
+   "group": "Kick B"
+  },
+  "1411": {
+   "id": 1411,
+   "path": "ba/aaju.pxd",
+   "name": "Kick B Fig.2",
+   "box": null,
+   "category": "drum",
+   "number": "1",
+   "group": "Kick B"
+  },
+  "1423": {
+   "id": 1423,
+   "path": "bo/aviu.pxd",
+   "name": "Kick B Fig.21",
+   "box": null,
+   "category": "drum",
+   "number": "2",
+   "group": "Kick B"
+  },
+  "3900": {
+   "id": 3900,
+   "path": null,
+   "name": "DanceMachine Sample-Kit Vol. 2 + 0",
+   "box": "DanceMachine Sample-Kit Vol. 2",
+   "category": null,
+   "number": null,
+   "group": null
+  },
+  "3930": {
+   "id": 3930,
+   "path": null,
+   "name": "DanceMachine Sample-Kit Vol. 2 + 30",
+   "box": "DanceMachine Sample-Kit Vol. 2",
+   "category": null,
+   "number": null,
+   "group": null
+  },
+  "3931": {
+   "id": 3931,
+   "path": null,
+   "name": "DanceMachine Sample-Kit Vol. 2 + 31",
+   "box": "DanceMachine Sample-Kit Vol. 2",
+   "category": null,
+   "number": null,
+   "group": null
+  },
+  "3998": {
+   "id": 3998,
+   "path": null,
+   "name": "DanceMachine Sample-Kit Vol. 2 + 98",
+   "box": "DanceMachine Sample-Kit Vol. 2",
+   "category": null,
+   "number": null,
+   "group": null
+  },
+  "4021": {
+   "id": 4021,
+   "path": null,
+   "name": "DanceMachine Sample-Kit Vol. 2 + 121",
+   "box": "DanceMachine Sample-Kit Vol. 2",
+   "category": null,
+   "number": null,
+   "group": null
+  },
+  "4022": {
+   "id": 4022,
+   "path": null,
+   "name": "DanceMachine Sample-Kit Vol. 2 + 122",
+   "box": "DanceMachine Sample-Kit Vol. 2",
+   "category": null,
+   "number": null,
+   "group": null
+  },
+  "4038": {
+   "id": 4038,
+   "path": null,
+   "name": "DanceMachine Sample-Kit Vol. 2 + 138",
+   "box": "DanceMachine Sample-Kit Vol. 2",
+   "category": null,
+   "number": null,
+   "group": null
+  },
+  "4045": {
+   "id": 4045,
+   "path": null,
+   "name": "DanceMachine Sample-Kit Vol. 2 + 145",
+   "box": "DanceMachine Sample-Kit Vol. 2",
+   "category": null,
+   "number": null,
+   "group": null
+  },
+  "4053": {
+   "id": 4053,
+   "path": null,
+   "name": "DanceMachine Sample-Kit Vol. 2 + 153",
+   "box": "DanceMachine Sample-Kit Vol. 2",
+   "category": null,
+   "number": null,
+   "group": null
+  },
+  "4060": {
+   "id": 4060,
+   "path": null,
+   "name": "DanceMachine Sample-Kit Vol. 2 + 160",
+   "box": "DanceMachine Sample-Kit Vol. 2",
+   "category": null,
+   "number": null,
+   "group": null
+  },
+  "4062": {
+   "id": 4062,
+   "path": null,
+   "name": "DanceMachine Sample-Kit Vol. 2 + 162",
+   "box": "DanceMachine Sample-Kit Vol. 2",
+   "category": null,
+   "number": null,
+   "group": null
+  },
+  "4063": {
+   "id": 4063,
+   "path": null,
+   "name": "DanceMachine Sample-Kit Vol. 2 + 163",
+   "box": "DanceMachine Sample-Kit Vol. 2",
+   "category": null,
+   "number": null,
+   "group": null
+  },
+  "4069": {
+   "id": 4069,
+   "path": null,
+   "name": "DanceMachine Sample-Kit Vol. 2 + 169",
+   "box": "DanceMachine Sample-Kit Vol. 2",
+   "category": null,
+   "number": null,
+   "group": null
+  },
+  "4083": {
+   "id": 4083,
+   "path": null,
+   "name": "DanceMachine Sample-Kit Vol. 2 + 183",
+   "box": "DanceMachine Sample-Kit Vol. 2",
+   "category": null,
+   "number": null,
+   "group": null
+  },
+  "4090": {
+   "id": 4090,
+   "path": null,
+   "name": "DanceMachine Sample-Kit Vol. 2 + 190",
+   "box": "DanceMachine Sample-Kit Vol. 2",
+   "category": null,
+   "number": null,
+   "group": null
+  },
+  "4091": {
+   "id": 4091,
+   "path": null,
+   "name": "DanceMachine Sample-Kit Vol. 2 + 191",
+   "box": "DanceMachine Sample-Kit Vol. 2",
+   "category": null,
+   "number": null,
+   "group": null
+  },
+  "4092": {
+   "id": 4092,
+   "path": null,
+   "name": "DanceMachine Sample-Kit Vol. 2 + 192",
+   "box": "DanceMachine Sample-Kit Vol. 2",
+   "category": null,
+   "number": null,
+   "group": null
+  },
+  "4099": {
+   "id": 4099,
+   "path": null,
+   "name": "DanceMachine Sample-Kit Vol. 2 + 199",
+   "box": "DanceMachine Sample-Kit Vol. 2",
+   "category": null,
+   "number": null,
+   "group": null
+  },
+  "4101": {
+   "id": 4101,
+   "path": null,
+   "name": "DanceMachine Sample-Kit Vol. 2 + 201",
+   "box": "DanceMachine Sample-Kit Vol. 2",
+   "category": null,
+   "number": null,
+   "group": null
+  },
+  "4102": {
+   "id": 4102,
+   "path": null,
+   "name": "DanceMachine Sample-Kit Vol. 2 + 202",
+   "box": "DanceMachine Sample-Kit Vol. 2",
+   "category": null,
+   "number": null,
+   "group": null
+  },
+  "4126": {
+   "id": 4126,
+   "path": null,
+   "name": "DanceMachine Sample-Kit Vol. 2 + 226",
+   "box": "DanceMachine Sample-Kit Vol. 2",
+   "category": null,
+   "number": null,
+   "group": null
+  },
+  "4127": {
+   "id": 4127,
+   "path": null,
+   "name": "DanceMachine Sample-Kit Vol. 2 + 227",
+   "box": "DanceMachine Sample-Kit Vol. 2",
+   "category": null,
+   "number": null,
+   "group": null
+  },
+  "4128": {
+   "id": 4128,
+   "path": null,
+   "name": "DanceMachine Sample-Kit Vol. 2 + 228",
+   "box": "DanceMachine Sample-Kit Vol. 2",
+   "category": null,
+   "number": null,
+   "group": null
+  },
+  "4129": {
+   "id": 4129,
+   "path": null,
+   "name": "DanceMachine Sample-Kit Vol. 2 + 229",
+   "box": "DanceMachine Sample-Kit Vol. 2",
+   "category": null,
+   "number": null,
+   "group": null
+  },
+  "4157": {
+   "id": 4157,
+   "path": null,
+   "name": "DanceMachine Sample-Kit Vol. 2 + 257",
+   "box": "DanceMachine Sample-Kit Vol. 2",
+   "category": null,
+   "number": null,
+   "group": null
+  },
+  "4244": {
+   "id": 4244,
+   "path": null,
+   "name": "DanceMachine Sample-Kit Vol. 2 + 344",
+   "box": "DanceMachine Sample-Kit Vol. 2",
+   "category": null,
+   "number": null,
+   "group": null
+  },
+  "4245": {
+   "id": 4245,
+   "path": null,
+   "name": "DanceMachine Sample-Kit Vol. 2 + 345",
+   "box": "DanceMachine Sample-Kit Vol. 2",
+   "category": null,
+   "number": null,
+   "group": null
+  },
+  "4290": {
+   "id": 4290,
+   "path": null,
+   "name": "DanceMachine Sample-Kit Vol. 2 + 390",
+   "box": "DanceMachine Sample-Kit Vol. 2",
+   "category": null,
+   "number": null,
+   "group": null
+  },
+  "4291": {
+   "id": 4291,
+   "path": null,
+   "name": "DanceMachine Sample-Kit Vol. 2 + 391",
+   "box": "DanceMachine Sample-Kit Vol. 2",
+   "category": null,
+   "number": null,
+   "group": null
+  },
+  "4328": {
+   "id": 4328,
+   "path": null,
+   "name": "DanceMachine Sample-Kit Vol. 2 + 428",
+   "box": "DanceMachine Sample-Kit Vol. 2",
+   "category": null,
+   "number": null,
+   "group": null
+  },
+  "4330": {
+   "id": 4330,
+   "path": null,
+   "name": "DanceMachine Sample-Kit Vol. 2 + 430",
+   "box": "DanceMachine Sample-Kit Vol. 2",
+   "category": null,
+   "number": null,
+   "group": null
+  },
+  "4359": {
+   "id": 4359,
+   "path": null,
+   "name": "DanceMachine Sample-Kit Vol. 2 + 459",
+   "box": "DanceMachine Sample-Kit Vol. 2",
+   "category": null,
+   "number": null,
+   "group": null
+  },
+  "4360": {
+   "id": 4360,
+   "path": null,
+   "name": "DanceMachine Sample-Kit Vol. 2 + 460",
+   "box": "DanceMachine Sample-Kit Vol. 2",
+   "category": null,
+   "number": null,
+   "group": null
+  },
+  "4380": {
+   "id": 4380,
+   "path": null,
+   "name": "DanceMachine Sample-Kit Vol. 2 + 480",
+   "box": "DanceMachine Sample-Kit Vol. 2",
+   "category": null,
+   "number": null,
+   "group": null
+  },
+  "4381": {
+   "id": 4381,
+   "path": null,
+   "name": "DanceMachine Sample-Kit Vol. 2 + 481",
+   "box": "DanceMachine Sample-Kit Vol. 2",
+   "category": null,
+   "number": null,
+   "group": null
+  },
+  "4382": {
+   "id": 4382,
+   "path": null,
+   "name": "DanceMachine Sample-Kit Vol. 2 + 482",
+   "box": "DanceMachine Sample-Kit Vol. 2",
+   "category": null,
+   "number": null,
+   "group": null
+  },
+  "4383": {
+   "id": 4383,
+   "path": null,
+   "name": "DanceMachine Sample-Kit Vol. 2 + 483",
+   "box": "DanceMachine Sample-Kit Vol. 2",
+   "category": null,
+   "number": null,
+   "group": null
+  },
+  "4384": {
+   "id": 4384,
+   "path": null,
+   "name": "DanceMachine Sample-Kit Vol. 2 + 484",
+   "box": "DanceMachine Sample-Kit Vol. 2",
+   "category": null,
+   "number": null,
+   "group": null
+  },
+  "4388": {
+   "id": 4388,
+   "path": null,
+   "name": "DanceMachine Sample-Kit Vol. 2 + 488",
+   "box": "DanceMachine Sample-Kit Vol. 2",
+   "category": null,
+   "number": null,
+   "group": null
+  },
+  "4389": {
+   "id": 4389,
+   "path": null,
+   "name": "DanceMachine Sample-Kit Vol. 2 + 489",
+   "box": "DanceMachine Sample-Kit Vol. 2",
+   "category": null,
+   "number": null,
+   "group": null
+  },
+  "4408": {
+   "id": 4408,
+   "path": null,
+   "name": "DanceMachine Sample-Kit Vol. 2 + 508",
+   "box": "DanceMachine Sample-Kit Vol. 2",
+   "category": null,
+   "number": null,
+   "group": null
+  },
+  "4409": {
+   "id": 4409,
+   "path": null,
+   "name": "DanceMachine Sample-Kit Vol. 2 + 509",
+   "box": "DanceMachine Sample-Kit Vol. 2",
+   "category": null,
+   "number": null,
+   "group": null
+  },
+  "4412": {
+   "id": 4412,
+   "path": null,
+   "name": "DanceMachine Sample-Kit Vol. 2 + 512",
+   "box": "DanceMachine Sample-Kit Vol. 2",
+   "category": null,
+   "number": null,
+   "group": null
+  },
+  "4413": {
+   "id": 4413,
+   "path": null,
+   "name": "DanceMachine Sample-Kit Vol. 2 + 513",
+   "box": "DanceMachine Sample-Kit Vol. 2",
+   "category": null,
+   "number": null,
+   "group": null
+  },
+  "4416": {
+   "id": 4416,
+   "path": null,
+   "name": "DanceMachine Sample-Kit Vol. 2 + 516",
+   "box": "DanceMachine Sample-Kit Vol. 2",
+   "category": null,
+   "number": null,
+   "group": null
+  },
+  "4417": {
+   "id": 4417,
+   "path": null,
+   "name": "DanceMachine Sample-Kit Vol. 2 + 517",
+   "box": "DanceMachine Sample-Kit Vol. 2",
+   "category": null,
+   "number": null,
+   "group": null
+  }
+ },
+ "grid": [
+  {
+   "bar": 0,
+   "time": 0.0,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    4091,
+    4126,
+    4127
+   ]
+  },
+  {
+   "bar": 1,
+   "time": 1.714,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 2,
+   "time": 3.429,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 3,
+   "time": 5.143,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 4,
+   "time": 6.857,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 5,
+   "time": 8.571,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 6,
+   "time": 10.286,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 7,
+   "time": 12.0,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 8,
+   "time": 13.714,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    4417,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 9,
+   "time": 15.429,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 10,
+   "time": 17.143,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 11,
+   "time": 18.857,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 12,
+   "time": 20.571,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    4380,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 13,
+   "time": 22.286,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 14,
+   "time": 24.0,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 15,
+   "time": 25.714,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 16,
+   "time": 27.429,
+   "slots": [
+    3998,
+    null,
+    null,
+    null,
+    null,
+    4380,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 17,
+   "time": 29.143,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    4063,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 18,
+   "time": 30.857,
+   "slots": [
+    3998,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 19,
+   "time": 32.571,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 20,
+   "time": 34.286,
+   "slots": [
+    3998,
+    null,
+    null,
+    4069,
+    null,
+    4382,
+    4128,
+    4129
+   ]
+  },
+  {
+   "bar": 21,
+   "time": 36.0,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 22,
+   "time": 37.714,
+   "slots": [
+    3998,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 23,
+   "time": 39.429,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 24,
+   "time": 41.143,
+   "slots": [
+    3998,
+    1302,
+    null,
+    4069,
+    null,
+    4382,
+    4128,
+    4129
+   ]
+  },
+  {
+   "bar": 25,
+   "time": 42.857,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 26,
+   "time": 44.571,
+   "slots": [
+    3998,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 27,
+   "time": 46.286,
+   "slots": [
+    null,
+    null,
+    1332,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 28,
+   "time": 48.0,
+   "slots": [
+    4021,
+    null,
+    null,
+    1330,
+    4038,
+    null,
+    4388,
+    4389
+   ]
+  },
+  {
+   "bar": 29,
+   "time": 49.714,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 30,
+   "time": 51.429,
+   "slots": [
+    4022,
+    null,
+    null,
+    null,
+    4038,
+    4062,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 31,
+   "time": 53.143,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 32,
+   "time": 54.857,
+   "slots": [
+    4021,
+    null,
+    4388,
+    null,
+    4038,
+    null,
+    3930,
+    3931
+   ]
+  },
+  {
+   "bar": 33,
+   "time": 56.571,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 34,
+   "time": 58.286,
+   "slots": [
+    4021,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 35,
+   "time": 60.0,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    4083,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 36,
+   "time": 61.714,
+   "slots": [
+    4021,
+    null,
+    4388,
+    4290,
+    null,
+    null,
+    3930,
+    3931
+   ]
+  },
+  {
+   "bar": 37,
+   "time": 63.429,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 38,
+   "time": 65.143,
+   "slots": [
+    4021,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 39,
+   "time": 66.857,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    4092,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 40,
+   "time": 68.571,
+   "slots": [
+    4021,
+    1302,
+    4388,
+    4291,
+    null,
+    null,
+    3930,
+    3931
+   ]
+  },
+  {
+   "bar": 41,
+   "time": 70.286,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 42,
+   "time": 72.0,
+   "slots": [
+    4022,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 43,
+   "time": 73.714,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    4092,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 44,
+   "time": 75.429,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    4099,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 45,
+   "time": 77.143,
+   "slots": [
+    1402,
+    null,
+    null,
+    null,
+    null,
+    null,
+    1328,
+    1329
+   ]
+  },
+  {
+   "bar": 46,
+   "time": 78.857,
+   "slots": [
+    1423,
+    1327,
+    null,
+    3900,
+    null,
+    null,
+    4244,
+    4245
+   ]
+  },
+  {
+   "bar": 47,
+   "time": 80.571,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 48,
+   "time": 82.286,
+   "slots": [
+    1400,
+    1327,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 49,
+   "time": 84.0,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 50,
+   "time": 85.714,
+   "slots": [
+    1423,
+    1327,
+    null,
+    3900,
+    4060,
+    null,
+    4244,
+    4245
+   ]
+  },
+  {
+   "bar": 51,
+   "time": 87.429,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 52,
+   "time": 89.143,
+   "slots": [
+    1400,
+    1327,
+    null,
+    null,
+    4060,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 53,
+   "time": 90.857,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 54,
+   "time": 92.571,
+   "slots": [
+    1423,
+    1327,
+    null,
+    3900,
+    4060,
+    4328,
+    4244,
+    4245
+   ]
+  },
+  {
+   "bar": 55,
+   "time": 94.286,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 56,
+   "time": 96.0,
+   "slots": [
+    1400,
+    1327,
+    null,
+    null,
+    4060,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 57,
+   "time": 97.714,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 58,
+   "time": 99.429,
+   "slots": [
+    1423,
+    1327,
+    4359,
+    3900,
+    4060,
+    4330,
+    4244,
+    4245
+   ]
+  },
+  {
+   "bar": 59,
+   "time": 101.143,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 60,
+   "time": 102.857,
+   "slots": [
+    1400,
+    1327,
+    4359,
+    null,
+    4060,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 61,
+   "time": 104.571,
+   "slots": [
+    1411,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 62,
+   "time": 106.286,
+   "slots": [
+    null,
+    null,
+    4359,
+    4045,
+    4060,
+    null,
+    4101,
+    4102
+   ]
+  },
+  {
+   "bar": 63,
+   "time": 108.0,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 64,
+   "time": 109.714,
+   "slots": [
+    null,
+    null,
+    4359,
+    null,
+    4060,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 65,
+   "time": 111.429,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 66,
+   "time": 113.143,
+   "slots": [
+    4157,
+    null,
+    4359,
+    4416,
+    4060,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 67,
+   "time": 114.857,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 68,
+   "time": 116.571,
+   "slots": [
+    4157,
+    null,
+    4359,
+    4416,
+    4060,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 69,
+   "time": 118.286,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 70,
+   "time": 120.0,
+   "slots": [
+    3998,
+    null,
+    4360,
+    4416,
+    4060,
+    4090,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 71,
+   "time": 121.714,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 72,
+   "time": 123.429,
+   "slots": [
+    3998,
+    null,
+    null,
+    4416,
+    4060,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 73,
+   "time": 125.143,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 74,
+   "time": 126.857,
+   "slots": [
+    3998,
+    null,
+    4360,
+    4416,
+    4060,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 75,
+   "time": 128.571,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 76,
+   "time": 130.286,
+   "slots": [
+    3998,
+    null,
+    null,
+    4416,
+    4060,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 77,
+   "time": 132.0,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    1328,
+    1329
+   ]
+  },
+  {
+   "bar": 78,
+   "time": 133.714,
+   "slots": [
+    3998,
+    1330,
+    null,
+    4416,
+    4060,
+    4381,
+    4128,
+    4129
+   ]
+  },
+  {
+   "bar": 79,
+   "time": 135.429,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 80,
+   "time": 137.143,
+   "slots": [
+    3998,
+    null,
+    null,
+    4416,
+    4060,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 81,
+   "time": 138.857,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 82,
+   "time": 140.571,
+   "slots": [
+    3998,
+    1302,
+    null,
+    4416,
+    4060,
+    4382,
+    4128,
+    4129
+   ]
+  },
+  {
+   "bar": 83,
+   "time": 142.286,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 84,
+   "time": 144.0,
+   "slots": [
+    3998,
+    null,
+    null,
+    4416,
+    4060,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 85,
+   "time": 145.714,
+   "slots": [
+    null,
+    null,
+    1332,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 86,
+   "time": 147.429,
+   "slots": [
+    null,
+    1330,
+    null,
+    4416,
+    4060,
+    4382,
+    4408,
+    4409
+   ]
+  },
+  {
+   "bar": 87,
+   "time": 149.143,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 88,
+   "time": 150.857,
+   "slots": [
+    null,
+    null,
+    null,
+    4416,
+    4060,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 89,
+   "time": 152.571,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 90,
+   "time": 154.286,
+   "slots": [
+    null,
+    null,
+    null,
+    4416,
+    4060,
+    4382,
+    4408,
+    4409
+   ]
+  },
+  {
+   "bar": 91,
+   "time": 156.0,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 92,
+   "time": 157.714,
+   "slots": [
+    null,
+    null,
+    4053,
+    4416,
+    4060,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 93,
+   "time": 159.429,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 94,
+   "time": 161.143,
+   "slots": [
+    null,
+    null,
+    null,
+    4416,
+    4060,
+    4383,
+    4412,
+    4413
+   ]
+  },
+  {
+   "bar": 95,
+   "time": 162.857,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 96,
+   "time": 164.571,
+   "slots": [
+    null,
+    null,
+    null,
+    4416,
+    4060,
+    4383,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 97,
+   "time": 166.286,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 98,
+   "time": 168.0,
+   "slots": [
+    null,
+    null,
+    null,
+    4416,
+    4060,
+    4383,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 99,
+   "time": 169.714,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 100,
+   "time": 171.429,
+   "slots": [
+    null,
+    null,
+    null,
+    4416,
+    null,
+    4384,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 101,
+   "time": 173.143,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 102,
+   "time": 174.857,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 103,
+   "time": 176.571,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 104,
+   "time": 178.286,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 105,
+   "time": 180.0,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 106,
+   "time": 181.714,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 107,
+   "time": 183.429,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 108,
+   "time": 185.143,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 109,
+   "time": 186.857,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 110,
+   "time": 188.571,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 111,
+   "time": 190.286,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 112,
+   "time": 192.0,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 113,
+   "time": 193.714,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 114,
+   "time": 195.429,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 115,
+   "time": 197.143,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 116,
+   "time": 198.857,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 117,
+   "time": 200.571,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 118,
+   "time": 202.286,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 119,
+   "time": 204.0,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 120,
+   "time": 205.714,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 121,
+   "time": 207.429,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 122,
+   "time": 209.143,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 123,
+   "time": 210.857,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 124,
+   "time": 212.571,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 125,
+   "time": 214.286,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 126,
+   "time": 216.0,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 127,
+   "time": 217.714,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 128,
+   "time": 219.429,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 129,
+   "time": 221.143,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 130,
+   "time": 222.857,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 131,
+   "time": 224.571,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 132,
+   "time": 226.286,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 133,
+   "time": 228.0,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 134,
+   "time": 229.714,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 135,
+   "time": 231.429,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 136,
+   "time": 233.143,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 137,
+   "time": 234.857,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 138,
+   "time": 236.571,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 139,
+   "time": 238.286,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 140,
+   "time": 240.0,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 141,
+   "time": 241.714,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 142,
+   "time": 243.429,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 143,
+   "time": 245.143,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 144,
+   "time": 246.857,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 145,
+   "time": 248.571,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 146,
+   "time": 250.286,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 147,
+   "time": 252.0,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 148,
+   "time": 253.714,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 149,
+   "time": 255.429,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 150,
+   "time": 257.143,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 151,
+   "time": 258.857,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 152,
+   "time": 260.571,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 153,
+   "time": 262.286,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 154,
+   "time": 264.0,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 155,
+   "time": 265.714,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 156,
+   "time": 267.429,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 157,
+   "time": 269.143,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 158,
+   "time": 270.857,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 159,
+   "time": 272.571,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 160,
+   "time": 274.286,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 161,
+   "time": 276.0,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 162,
+   "time": 277.714,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 163,
+   "time": 279.429,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 164,
+   "time": 281.143,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 165,
+   "time": 282.857,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 166,
+   "time": 284.571,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 167,
+   "time": 286.286,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 168,
+   "time": 288.0,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 169,
+   "time": 289.714,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 170,
+   "time": 291.429,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 171,
+   "time": 293.143,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 172,
+   "time": 294.857,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 173,
+   "time": 296.571,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 174,
+   "time": 298.286,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 175,
+   "time": 300.0,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 176,
+   "time": 301.714,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 177,
+   "time": 303.429,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 178,
+   "time": 305.143,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 179,
+   "time": 306.857,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 180,
+   "time": 308.571,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 181,
+   "time": 310.286,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 182,
+   "time": 312.0,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 183,
+   "time": 313.714,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 184,
+   "time": 315.429,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 185,
+   "time": 317.143,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 186,
+   "time": 318.857,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 187,
+   "time": 320.571,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 188,
+   "time": 322.286,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 189,
+   "time": 324.0,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 190,
+   "time": 325.714,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 191,
+   "time": 327.429,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 192,
+   "time": 329.143,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 193,
+   "time": 330.857,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 194,
+   "time": 332.571,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 195,
+   "time": 334.286,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 196,
+   "time": 336.0,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 197,
+   "time": 337.714,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 198,
+   "time": 339.429,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 199,
+   "time": 341.143,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 200,
+   "time": 342.857,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 201,
+   "time": 344.571,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 202,
+   "time": 346.286,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 203,
+   "time": 348.0,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 204,
+   "time": 349.714,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 205,
+   "time": 351.429,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 206,
+   "time": 353.143,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 207,
+   "time": 354.857,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 208,
+   "time": 356.571,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 209,
+   "time": 358.286,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 210,
+   "time": 360.0,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 211,
+   "time": 361.714,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 212,
+   "time": 363.429,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 213,
+   "time": 365.143,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 214,
+   "time": 366.857,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 215,
+   "time": 368.571,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 216,
+   "time": 370.286,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 217,
+   "time": 372.0,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 218,
+   "time": 373.714,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 219,
+   "time": 375.429,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 220,
+   "time": 377.143,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 221,
+   "time": 378.857,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 222,
+   "time": 380.571,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 223,
+   "time": 382.286,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 224,
+   "time": 384.0,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 225,
+   "time": 385.714,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 226,
+   "time": 387.429,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 227,
+   "time": 389.143,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 228,
+   "time": 390.857,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 229,
+   "time": 392.571,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 230,
+   "time": 394.286,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 231,
+   "time": 396.0,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 232,
+   "time": 397.714,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 233,
+   "time": 399.429,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 234,
+   "time": 401.143,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 235,
+   "time": 402.857,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 236,
+   "time": 404.571,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 237,
+   "time": 406.286,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 238,
+   "time": 408.0,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 239,
+   "time": 409.714,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 240,
+   "time": 411.429,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 241,
+   "time": 413.143,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 242,
+   "time": 414.857,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 243,
+   "time": 416.571,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 244,
+   "time": 418.286,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 245,
+   "time": 420.0,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 246,
+   "time": 421.714,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 247,
+   "time": 423.429,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 248,
+   "time": 425.143,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 249,
+   "time": 426.857,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 250,
+   "time": 428.571,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 251,
+   "time": 430.286,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 252,
+   "time": 432.0,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 253,
+   "time": 433.714,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 254,
+   "time": 435.429,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 255,
+   "time": 437.143,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 256,
+   "time": 438.857,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 257,
+   "time": 440.571,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 258,
+   "time": 442.286,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 259,
+   "time": 444.0,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 260,
+   "time": 445.714,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 261,
+   "time": 447.429,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 262,
+   "time": 449.143,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 263,
+   "time": 450.857,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 264,
+   "time": 452.571,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 265,
+   "time": 454.286,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 266,
+   "time": 456.0,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 267,
+   "time": 457.714,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 268,
+   "time": 459.429,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 269,
+   "time": 461.143,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 270,
+   "time": 462.857,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 271,
+   "time": 464.571,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 272,
+   "time": 466.286,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 273,
+   "time": 468.0,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 274,
+   "time": 469.714,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 275,
+   "time": 471.429,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 276,
+   "time": 473.143,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 277,
+   "time": 474.857,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 278,
+   "time": 476.571,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 279,
+   "time": 478.286,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 280,
+   "time": 480.0,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 281,
+   "time": 481.714,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 282,
+   "time": 483.429,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 283,
+   "time": 485.143,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 284,
+   "time": 486.857,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 285,
+   "time": 488.571,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 286,
+   "time": 490.286,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 287,
+   "time": 492.0,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 288,
+   "time": 493.714,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 289,
+   "time": 495.429,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 290,
+   "time": 497.143,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 291,
+   "time": 498.857,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 292,
+   "time": 500.571,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 293,
+   "time": 502.286,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 294,
+   "time": 504.0,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 295,
+   "time": 505.714,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 296,
+   "time": 507.429,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 297,
+   "time": 509.143,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 298,
+   "time": 510.857,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 299,
+   "time": 512.571,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 300,
+   "time": 514.286,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 301,
+   "time": 516.0,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 302,
+   "time": 517.714,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 303,
+   "time": 519.429,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 304,
+   "time": 521.143,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 305,
+   "time": 522.857,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 306,
+   "time": 524.571,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 307,
+   "time": 526.286,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 308,
+   "time": 528.0,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 309,
+   "time": 529.714,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 310,
+   "time": 531.429,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 311,
+   "time": 533.143,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 312,
+   "time": 534.857,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 313,
+   "time": 536.571,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 314,
+   "time": 538.286,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 315,
+   "time": 540.0,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 316,
+   "time": 541.714,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 317,
+   "time": 543.429,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 318,
+   "time": 545.143,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 319,
+   "time": 546.857,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 320,
+   "time": 548.571,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 321,
+   "time": 550.286,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 322,
+   "time": 552.0,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 323,
+   "time": 553.714,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 324,
+   "time": 555.429,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 325,
+   "time": 557.143,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 326,
+   "time": 558.857,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 327,
+   "time": 560.571,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 328,
+   "time": 562.286,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 329,
+   "time": 564.0,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 330,
+   "time": 565.714,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 331,
+   "time": 567.429,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 332,
+   "time": 569.143,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 333,
+   "time": 570.857,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 334,
+   "time": 572.571,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 335,
+   "time": 574.286,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 336,
+   "time": 576.0,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 337,
+   "time": 577.714,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 338,
+   "time": 579.429,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 339,
+   "time": 581.143,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 340,
+   "time": 582.857,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 341,
+   "time": 584.571,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 342,
+   "time": 586.286,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 343,
+   "time": 588.0,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 344,
+   "time": 589.714,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 345,
+   "time": 591.429,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 346,
+   "time": 593.143,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 347,
+   "time": 594.857,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 348,
+   "time": 596.571,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 349,
+   "time": 598.286,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 350,
+   "time": 600.0,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 351,
+   "time": 601.714,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 352,
+   "time": 603.429,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 353,
+   "time": 605.143,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 354,
+   "time": 606.857,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 355,
+   "time": 608.571,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 356,
+   "time": 610.286,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 357,
+   "time": 612.0,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 358,
+   "time": 613.714,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 359,
+   "time": 615.429,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 360,
+   "time": 617.143,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 361,
+   "time": 618.857,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 362,
+   "time": 620.571,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 363,
+   "time": 622.286,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 364,
+   "time": 624.0,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 365,
+   "time": 625.714,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 366,
+   "time": 627.429,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 367,
+   "time": 629.143,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 368,
+   "time": 630.857,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 369,
+   "time": 632.571,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 370,
+   "time": 634.286,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 371,
+   "time": 636.0,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 372,
+   "time": 637.714,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 373,
+   "time": 639.429,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 374,
+   "time": 641.143,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 375,
+   "time": 642.857,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 376,
+   "time": 644.571,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 377,
+   "time": 646.286,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 378,
+   "time": 648.0,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 379,
+   "time": 649.714,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 380,
+   "time": 651.429,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 381,
+   "time": 653.143,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 382,
+   "time": 654.857,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 383,
+   "time": 656.571,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 384,
+   "time": 658.286,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 385,
+   "time": 660.0,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 386,
+   "time": 661.714,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 387,
+   "time": 663.429,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 388,
+   "time": 665.143,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 389,
+   "time": 666.857,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 390,
+   "time": 668.571,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 391,
+   "time": 670.286,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 392,
+   "time": 672.0,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 393,
+   "time": 673.714,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 394,
+   "time": 675.429,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 395,
+   "time": 677.143,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 396,
+   "time": 678.857,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 397,
+   "time": 680.571,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 398,
+   "time": 682.286,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 399,
+   "time": 684.0,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 400,
+   "time": 685.714,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 401,
+   "time": 687.429,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 402,
+   "time": 689.143,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 403,
+   "time": 690.857,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 404,
+   "time": 692.571,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 405,
+   "time": 694.286,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 406,
+   "time": 696.0,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 407,
+   "time": 697.714,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 408,
+   "time": 699.429,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 409,
+   "time": 701.143,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 410,
+   "time": 702.857,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 411,
+   "time": 704.571,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 412,
+   "time": 706.286,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 413,
+   "time": 708.0,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 414,
+   "time": 709.714,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 415,
+   "time": 711.429,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 416,
+   "time": 713.143,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 417,
+   "time": 714.857,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 418,
+   "time": 716.571,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 419,
+   "time": 718.286,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 420,
+   "time": 720.0,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 421,
+   "time": 721.714,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 422,
+   "time": 723.429,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 423,
+   "time": 725.143,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 424,
+   "time": 726.857,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 425,
+   "time": 728.571,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 426,
+   "time": 730.286,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 427,
+   "time": 732.0,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 428,
+   "time": 733.714,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 429,
+   "time": 735.429,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 430,
+   "time": 737.143,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 431,
+   "time": 738.857,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 432,
+   "time": 740.571,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 433,
+   "time": 742.286,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 434,
+   "time": 744.0,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 435,
+   "time": 745.714,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 436,
+   "time": 747.429,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 437,
+   "time": 749.143,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 438,
+   "time": 750.857,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 439,
+   "time": 752.571,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 440,
+   "time": 754.286,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 441,
+   "time": 756.0,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 442,
+   "time": 757.714,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 443,
+   "time": 759.429,
+   "slots": [
+    null,
+    null,
+    8,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  }
+ ]
+}

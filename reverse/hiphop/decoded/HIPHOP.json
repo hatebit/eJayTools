@@ -1,0 +1,880 @@
+{
+ "file": "HIPHOP.MIX",
+ "signature": "0x0a08",
+ "tracks": 8,
+ "grid_bars": 702,
+ "song_bars": 51,
+ "bpm": 96,
+ "beats_per_bar": 4,
+ "samples_per_bar": 110250,
+ "seconds": 127.5,
+ "bank": {
+  "signature": "0x0a08",
+  "nlists": 1,
+  "version": "HipHop eJay 1.01",
+  "head": [
+   1,
+   11025,
+   0,
+   0
+  ],
+  "track_count": 8,
+  "pan": [
+   0,
+   0,
+   2,
+   0,
+   0,
+   1,
+   0,
+   0
+  ],
+  "pan_names": [
+   "C",
+   "C",
+   "R",
+   "C",
+   "C",
+   "L",
+   "C",
+   "C"
+  ],
+  "tables": {
+   "bytes": 1408,
+   "first_words": [
+    350,
+    350
+   ]
+  }
+ },
+ "samples": {
+  "952": {
+   "id": 952,
+   "path": "ai/h1dc001.pxd",
+   "name": "hat A first accent",
+   "category": "drum",
+   "number": "2",
+   "group": "hat A"
+  },
+  "994": {
+   "id": 994,
+   "path": "af/h1dd009.pxd",
+   "name": "crash  02 reverse",
+   "category": "drum",
+   "number": "2",
+   "group": "crash "
+  },
+  "1200": {
+   "id": 1200,
+   "path": "ba/h1fx328.pxd",
+   "name": "bang 1",
+   "category": "effect",
+   "number": "1",
+   "group": "bang"
+  },
+  "1345": {
+   "id": 1345,
+   "path": "aq/h1la016.pxd",
+   "name": "roxz deepa",
+   "category": "loop",
+   "number": "4",
+   "group": "roxz"
+  },
+  "1525": {
+   "id": 1525,
+   "path": "an/h1la551.pxd",
+   "name": "magic flow 1",
+   "category": "loop",
+   "number": "2",
+   "group": "magic"
+  },
+  "1526": {
+   "id": 1526,
+   "path": "am/h1la552.pxd",
+   "name": "magic flow 2",
+   "category": "loop",
+   "number": "2",
+   "group": "magic"
+  },
+  "1751": {
+   "id": 1751,
+   "path": "aj/h1rp169.pxd",
+   "name": "another system",
+   "category": "rap",
+   "number": "2",
+   "group": "another"
+  },
+  "1752": {
+   "id": 1752,
+   "path": "ah/h1rp170.pxd",
+   "name": "MC Magic comes down",
+   "category": "rap",
+   "number": "2",
+   "group": "MC Magic"
+  },
+  "1753": {
+   "id": 1753,
+   "path": "an/h1rp171.pxd",
+   "name": "universe rehearse",
+   "category": "rap",
+   "number": "2",
+   "group": "universe"
+  },
+  "1756": {
+   "id": 1756,
+   "path": "an/h1rp174.pxd",
+   "name": "hiphopping too much",
+   "category": "rap",
+   "number": "2",
+   "group": "hiphopping"
+  },
+  "1764": {
+   "id": 1764,
+   "path": "aa/h1rp182.pxd",
+   "name": "in a  space ship",
+   "category": "rap",
+   "number": "2",
+   "group": "in a "
+  },
+  "1767": {
+   "id": 1767,
+   "path": "ao/h1rp185.pxd",
+   "name": "coming  space ship",
+   "category": "rap",
+   "number": "2",
+   "group": "coming "
+  },
+  "1770": {
+   "id": 1770,
+   "path": "am/h1rp188.pxd",
+   "name": "from earth to earth",
+   "category": "rap",
+   "number": "2",
+   "group": "from earth"
+  },
+  "1853": {
+   "id": 1853,
+   "path": "ai/h1sy026.pxd",
+   "name": "wave chord distored",
+   "category": "key",
+   "number": "2",
+   "group": "wave chord"
+  }
+ },
+ "grid": [
+  {
+   "bar": 0,
+   "time": 0.0,
+   "slots": [
+    1345,
+    1853,
+    994,
+    1752,
+    1752,
+    952,
+    1853,
+    1525
+   ]
+  },
+  {
+   "bar": 1,
+   "time": 2.5,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 2,
+   "time": 5.0,
+   "slots": [
+    1345,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    1525
+   ]
+  },
+  {
+   "bar": 3,
+   "time": 7.5,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 4,
+   "time": 10.0,
+   "slots": [
+    null,
+    1853,
+    994,
+    null,
+    null,
+    952,
+    1853,
+    1526
+   ]
+  },
+  {
+   "bar": 5,
+   "time": 12.5,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 6,
+   "time": 15.0,
+   "slots": [
+    1345,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    1525
+   ]
+  },
+  {
+   "bar": 7,
+   "time": 17.5,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 8,
+   "time": 20.0,
+   "slots": [
+    null,
+    1853,
+    994,
+    1753,
+    1753,
+    952,
+    1853,
+    1526
+   ]
+  },
+  {
+   "bar": 9,
+   "time": 22.5,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 10,
+   "time": 25.0,
+   "slots": [
+    1345,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    1525
+   ]
+  },
+  {
+   "bar": 11,
+   "time": 27.5,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 12,
+   "time": 30.0,
+   "slots": [
+    null,
+    1853,
+    994,
+    1751,
+    1751,
+    952,
+    1853,
+    1526
+   ]
+  },
+  {
+   "bar": 13,
+   "time": 32.5,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 14,
+   "time": 35.0,
+   "slots": [
+    1345,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    1525
+   ]
+  },
+  {
+   "bar": 15,
+   "time": 37.5,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 16,
+   "time": 40.0,
+   "slots": [
+    null,
+    null,
+    994,
+    1767,
+    null,
+    952,
+    1853,
+    1526
+   ]
+  },
+  {
+   "bar": 17,
+   "time": 42.5,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 18,
+   "time": 45.0,
+   "slots": [
+    1345,
+    null,
+    null,
+    null,
+    null,
+    952,
+    1853,
+    1525
+   ]
+  },
+  {
+   "bar": 19,
+   "time": 47.5,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 20,
+   "time": 50.0,
+   "slots": [
+    null,
+    1853,
+    994,
+    1756,
+    1756,
+    952,
+    1853,
+    1526
+   ]
+  },
+  {
+   "bar": 21,
+   "time": 52.5,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 22,
+   "time": 55.0,
+   "slots": [
+    1345,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    1525
+   ]
+  },
+  {
+   "bar": 23,
+   "time": 57.5,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 24,
+   "time": 60.0,
+   "slots": [
+    null,
+    1853,
+    994,
+    null,
+    null,
+    952,
+    1853,
+    1526
+   ]
+  },
+  {
+   "bar": 25,
+   "time": 62.5,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 26,
+   "time": 65.0,
+   "slots": [
+    1345,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    1525
+   ]
+  },
+  {
+   "bar": 27,
+   "time": 67.5,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 28,
+   "time": 70.0,
+   "slots": [
+    null,
+    1853,
+    994,
+    1756,
+    1756,
+    952,
+    1853,
+    1526
+   ]
+  },
+  {
+   "bar": 29,
+   "time": 72.5,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 30,
+   "time": 75.0,
+   "slots": [
+    1345,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    1525
+   ]
+  },
+  {
+   "bar": 31,
+   "time": 77.5,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 32,
+   "time": 80.0,
+   "slots": [
+    null,
+    null,
+    null,
+    1770,
+    1770,
+    null,
+    null,
+    1526
+   ]
+  },
+  {
+   "bar": 33,
+   "time": 82.5,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 34,
+   "time": 85.0,
+   "slots": [
+    1345,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    1525
+   ]
+  },
+  {
+   "bar": 35,
+   "time": 87.5,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 36,
+   "time": 90.0,
+   "slots": [
+    null,
+    1853,
+    994,
+    1756,
+    1756,
+    952,
+    1853,
+    1526
+   ]
+  },
+  {
+   "bar": 37,
+   "time": 92.5,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 38,
+   "time": 95.0,
+   "slots": [
+    1345,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    1525
+   ]
+  },
+  {
+   "bar": 39,
+   "time": 97.5,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 40,
+   "time": 100.0,
+   "slots": [
+    null,
+    null,
+    994,
+    1770,
+    null,
+    952,
+    1853,
+    1526
+   ]
+  },
+  {
+   "bar": 41,
+   "time": 102.5,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 42,
+   "time": 105.0,
+   "slots": [
+    1345,
+    null,
+    null,
+    null,
+    null,
+    952,
+    1853,
+    1525
+   ]
+  },
+  {
+   "bar": 43,
+   "time": 107.5,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 44,
+   "time": 110.0,
+   "slots": [
+    null,
+    1853,
+    994,
+    1764,
+    1764,
+    952,
+    1853,
+    1526
+   ]
+  },
+  {
+   "bar": 45,
+   "time": 112.5,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 46,
+   "time": 115.0,
+   "slots": [
+    null,
+    1853,
+    994,
+    1764,
+    1764,
+    952,
+    1853,
+    null
+   ]
+  },
+  {
+   "bar": 47,
+   "time": 117.5,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 48,
+   "time": 120.0,
+   "slots": [
+    null,
+    null,
+    994,
+    1764,
+    1764,
+    952,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 49,
+   "time": 122.5,
+   "slots": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  {
+   "bar": 50,
+   "time": 125.0,
+   "slots": [
+    null,
+    null,
+    null,
+    1200,
+    1200,
+    null,
+    null,
+    null
+   ]
+  }
+ ]
+}

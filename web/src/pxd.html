@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PXD to WAV</title>
+    <link rel="icon" type="image/svg+xml" href="logo.svg">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<div class="shell">
+    <header>
+        <h1>PXD &rarr; WAV</h1>
+        <p>Drag and drop an eJay&nbsp;<b>.PXD</b> file to decode it to mono 16-bit 44.1&nbsp;kHz WAV.</p>
+    </header>
+
+    <div class="drop" id="drop-zone">
+        <input type="file" id="file-input" accept=".pxd,.PXD" hidden>
+        <p class="drop-hint">Drop a <b>.PXD</b> file here, or click to browse</p>
+        <button class="btn" id="browse-btn" type="button">Browse</button>
+    </div>
+
+    <div id="file-meta" class="meta" hidden>
+        <span id="file-name"></span>
+        <span id="file-size"></span>
+    </div>
+
+    <div id="result" class="result" hidden>
+        <div class="row"><span class="label">Name</span><span id="result-name"></span></div>
+        <div class="row"><span class="label">Samples</span><span id="result-samples"></span></div>
+        <div class="row"><span class="label">Duration</span><span id="result-duration"></span></div>
+        <div class="actions">
+            <button class="btn" id="preview-btn" type="button" disabled>&#9654; Preview</button>
+            <button class="btn btn-primary" id="download-btn" type="button" disabled>Download .WAV</button>
+        </div>
+    </div>
+
+    <audio id="preview-audio"></audio>
+
+    <div id="error" class="error" hidden></div>
+</div>
+<script src="../dist/bundle.js"></script>
+</body>
+</html>

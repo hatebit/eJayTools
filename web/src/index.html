@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>eJay Tools — play, render and convert your old eJay mixes</title>
+    <meta name="description"
+          content="Open-source tools for Dance eJay, Rave eJay, HipHop eJay, Dance eJay 2 and Techno eJay 2: play a mix, export WAV, render PNG arrangements and decode .PXD samples.">
+    <meta name="theme-color" content="#111111">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="eJay Tools — bring back your hits">
+    <meta property="og:description"
+          content="Play, render and convert eJay *.MIX projects with open-source tools recovered from the original eJay data.">
+    <link rel="icon" type="image/svg+xml" href="logo.svg">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body id="top">
+
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site-header">
+    <nav class="nav" aria-label="Main">
+        <a class="brand" href="#top" aria-label="eJay tools, back to top">
+      <span class="brand-word">
+        <span class="brand-word-outline" aria-hidden="true">eJayTools</span>
+        <span class="brand-word-fill" aria-hidden="true">eJayTools</span>
+      </span>
+            <svg class="brand-swoosh" viewBox="0 0 104 12" aria-hidden="true" focusable="false">
+                <path d="M2 9C22 2 58 1 102 5" fill="none" stroke="#111111" stroke-width="7" stroke-linecap="round"/>
+                <path d="M2 9C22 2 58 1 102 5" fill="none" stroke="#F58220" stroke-width="3" stroke-linecap="round"/>
+            </svg>
+        </a>
+        <ul class="nav-links">
+            <li><a href="#tools">Tools</a></li>
+            <li><a href="#download">Download</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a class="nav-cta" href="https://github.com/hatebit/emp">GitHub</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main id="main">
+
+    <section class="hero">
+        <div class="hero-content">
+            <p class="eyebrow">Open source &middot; Five formats</p>
+            <h1>Bring back your <span class="highlight">hits</span></h1>
+            <p class="lede">
+                Play, render and convert the mixes you made in Dance, Rave, HipHop, Dance 2
+                and Techno 2 &mdash; straight from your own eJay data.
+            </p>
+            <div class="hero-actions">
+                <a href="#download" class="btn btn-primary">Get the tools</a>
+                <a href="#tools" class="btn btn-ghost">See what they do</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="proof" aria-label="The toolset at a glance">
+        <ul>
+            <li><strong>5</strong><span>supported formats</span></li>
+            <li><strong>74</strong><span>tested songs</span></li>
+            <li><strong>3</strong><span>ready to use apps</span></li>
+        </ul>
+    </section>
+
+    <section id="tools" class="section">
+        <div class="wrap">
+            <div class="section-head">
+                <h2>Three tools, five formats</h2>
+                <p>
+                    Every app reads the <code>.MIX</code> signature, so one toolset covers the whole
+                    eJay series. Export a WAV, render a PNG arrangement, or decode a single sample.
+                </p>
+                <ul class="formats" aria-label="Supported formats">
+                    <li>Dance eJay</li>
+                    <li>Rave eJay</li>
+                    <li>HipHop eJay</li>
+                    <li>Dance eJay 2</li>
+                    <li>Techno eJay 2</li>
+                </ul>
+            </div>
+
+            <div class="cards">
+                <article class="card">
+                    <span class="chip">EMP</span>
+                    <h3>eJay Mix Player</h3>
+                    <p>
+                        Play a mix on your sound card, or write any bar range to a 44.1&nbsp;kHz WAV.
+                        The terminal UI browses a whole <code>MIX</code> folder, seeks and exports.
+                    </p>
+                    <p class="card-meta">emp-cli &middot; emp-tui</p>
+                </article>
+
+                <article class="card">
+                    <span class="chip">EMR</span>
+                    <h3>eJay Mix Renderer</h3>
+                    <p>
+                        Render an arrangement to a PNG, one row per track, from a single song or from
+                        every song in every tree in one run.
+                    </p>
+                    <p class="card-meta">emr-cli</p>
+                </article>
+
+                <article class="card">
+                    <span class="chip">PTW</span>
+                    <h3>PXD to WAV</h3>
+                    <p>
+                        Drop a <code>.PXD</code> sample file into the browser page to decode it to mono
+                        16-bit 44.1&nbsp;kHz WAV &mdash; preview it, then download.
+                    </p>
+                    <a class="btn btn-primary" href="pxd.html">Open PXD &rarr; WAV</a>
+                    <p class="card-meta">browser &middot; libs/pxd</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="download" class="section section--tint">
+        <div class="wrap">
+            <div class="section-head">
+                <h2>Download the tools</h2>
+                <p>
+                    Prebuilt Windows x64 bundles, published on GitHub. Unzip one folder and run the
+                    <code>.exe</code> &mdash; no Python install needed.
+                </p>
+            </div>
+
+            <div class="cards">
+                <article class="card">
+                    <span class="chip">Windows x64</span>
+                    <h3>emp-cli</h3>
+                    <p>Command-line player. Play live, or export exactly the bars you ask for.</p>
+                    <a class="btn btn-primary" href="https://github.com/hatebit/emp/releases">Download emp-cli</a>
+                </article>
+
+                <article class="card">
+                    <span class="chip">Windows x64</span>
+                    <h3>emp-tui</h3>
+                    <p>Experimental player as a terminal UI: browse, seek, play and export.</p>
+                    <a class="btn btn-primary" href="https://github.com/hatebit/emp/releases">Download emp-tui</a>
+                </article>
+
+                <article class="card">
+                    <span class="chip">Windows x64</span>
+                    <h3>emr-cli</h3>
+                    <p>PNG arrangement renderer for songs, one row per track.</p>
+                    <a class="btn btn-primary" href="https://github.com/hatebit/emp/releases">Download emr-cli</a>
+                </article>
+            </div>
+
+            <div class="download-actions">
+                <a class="btn btn-primary" href="https://github.com/hatebit/emp/releases">All releases on GitHub</a>
+                <a class="btn btn-ghost" href="README.html">Read the manuals</a>
+                <a class="btn btn-ghost" href="https://github.com/hatebit/emp">Read the source</a>
+            </div>
+
+            <p class="note">
+                The bundles ship without the eJay audio. Keep your <code>disks/</code> folder beside
+                the unpacked bundle, or set <code>EJAY_DATA_ROOT</code> to the folder that contains
+                it. Manuals for all three apps are in the repository.
+            </p>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="wrap">
+            <div class="section-head">
+                <h2>About the project</h2>
+                <p>
+                    An independent, open-source project that keeps the music you made with eJay
+                    usable on today&rsquo;s computers.
+                </p>
+            </div>
+
+            <div class="about-grid">
+                <div class="about-copy">
+                    <p>
+                        eJay turned a home computer into a loop-based studio in the late 1990s: pick
+                        samples, drop them on a grid, arrange them into a track. Plenty of songs were
+                        saved as <code>.MIX</code> projects, and many of them have been unplayable for
+                        years.
+                    </p>
+                    <p>
+                        eJay Tools opens those projects and the original sample banks directly. A song
+                        can be played back, written to a WAV file or drawn as a PNG arrangement, without
+                        installing the old software.
+                    </p>
+                    <p>
+                        Everything runs locally, on the files you already have. No account, no upload,
+                        no online service in between.
+                    </p>
+                </div>
+
+                <div class="about-copy">
+                    <p>
+                        <strong>Five formats, one toolset.</strong> Dance, Rave, HipHop, Dance&nbsp;2 and
+                        Techno&nbsp;2 projects are detected automatically from their file signature.
+                    </p>
+                    <p>
+                        <strong>Three downloads and a browser page.</strong> A command-line player, a
+                        terminal player and a PNG renderer, plus a converter for single
+                        <code>.PXD</code> sample files.
+                    </p>
+                    <p>
+                        <strong>74 songs as a test set.</strong> Every project in the reference corpus is
+                        decoded and written back byte for byte, so the tools reproduce the original
+                        arrangement exactly.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<footer class="site-footer">
+    <div class="wrap">
+        <div class="footer-top">
+            <div class="footer-brand">
+                <a class="brand" href="#top" aria-label="eJay tools, back to top">
+          <span class="brand-word">
+            <span class="brand-word-outline" aria-hidden="true">eJayTools</span>
+            <span class="brand-word-fill" aria-hidden="true">eJayTools</span>
+          </span>
+                    <svg class="brand-swoosh" viewBox="0 0 104 12" aria-hidden="true" focusable="false">
+                        <path d="M2 9C22 2 58 1 102 5" fill="none" stroke="#111111" stroke-width="7"
+                              stroke-linecap="round"/>
+                        <path d="M2 9C22 2 58 1 102 5" fill="none" stroke="#F58220" stroke-width="3"
+                              stroke-linecap="round"/>
+                    </svg>
+                </a>
+                <p>Play, render and convert!</p>
+            </div>
+
+            <nav aria-label="Footer">
+                <ul class="footer-links">
+                    <li><a href="https://github.com/hatebit/emp">Source</a></li>
+                    <li><a href="https://github.com/hatebit/emp/releases">Releases</a></li>
+                    <li><a href="https://github.com/hatebit/emp/tree/main/reverse">Format docs</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 hatebit. Not affiliated with the original eJay publishers.</p>
+            <p>Is everyone ok out there?</p>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>

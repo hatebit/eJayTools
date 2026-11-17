@@ -1,0 +1,540 @@
+{
+ "file": "STEP.MIX",
+ "signature": "0x0a19",
+ "bpm": 140,
+ "field_04": 27,
+ "field_0a": 140,
+ "field_0e": 30,
+ "author": "MC Magic",
+ "ident": "#SKKENNUNG#:0000000",
+ "title": "Duck Dance",
+ "tracks": [
+  {
+   "track": 1,
+   "pan": 0,
+   "pan_name": "both",
+   "volume": 22755
+  },
+  {
+   "track": 2,
+   "pan": 0,
+   "pan_name": "both",
+   "volume": 26800
+  },
+  {
+   "track": 3,
+   "pan": 0,
+   "pan_name": "both",
+   "volume": 26800
+  },
+  {
+   "track": 4,
+   "pan": 0,
+   "pan_name": "both",
+   "volume": 26800
+  },
+  {
+   "track": 5,
+   "pan": 0,
+   "pan_name": "both",
+   "volume": 26800
+  },
+  {
+   "track": 6,
+   "pan": 0,
+   "pan_name": "both",
+   "volume": 26800
+  },
+  {
+   "track": 7,
+   "pan": 0,
+   "pan_name": "both",
+   "volume": 26800
+  },
+  {
+   "track": 8,
+   "pan": 0,
+   "pan_name": "both",
+   "volume": 26800
+  },
+  {
+   "track": 9,
+   "pan": 0,
+   "pan_name": "both",
+   "volume": 26800
+  },
+  {
+   "track": 10,
+   "pan": 0,
+   "pan_name": "both",
+   "volume": 26800
+  },
+  {
+   "track": 11,
+   "pan": 1,
+   "pan_name": "left",
+   "volume": 26800
+  },
+  {
+   "track": 12,
+   "pan": 2,
+   "pan_name": "right",
+   "volume": 26800
+  },
+  {
+   "track": 13,
+   "pan": 1,
+   "pan_name": "left",
+   "volume": 26800
+  },
+  {
+   "track": 14,
+   "pan": 2,
+   "pan_name": "right",
+   "volume": 26800
+  },
+  {
+   "track": 15,
+   "pan": 1,
+   "pan_name": "left",
+   "volume": 26800
+  },
+  {
+   "track": 16,
+   "pan": 2,
+   "pan_name": "right",
+   "volume": 26800
+  }
+ ],
+ "trailing_words": [
+  0,
+  0,
+  0,
+  0,
+  0,
+  16
+ ],
+ "sample_set": "Dance eJay 2.0",
+ "marker": 9,
+ "boxes": [
+  {
+   "lo": 2000,
+   "hi": 3399,
+   "name": "DanceMachine Samples"
+  },
+  {
+   "lo": 3400,
+   "hi": 3899,
+   "name": "DanceMachine Samplekit Vol. 1 Raps & Voices"
+  },
+  {
+   "lo": 3900,
+   "hi": 4499,
+   "name": "DanceMachine Samplekit Vol. 2 Drums & Synthies"
+  },
+  {
+   "lo": 4500,
+   "hi": 5099,
+   "name": "DanceMachine Samplekit Vol. 3 Space Sounds"
+  },
+  {
+   "lo": 5100,
+   "hi": 5799,
+   "name": "Dance eJay Samplekit Vol. 4 House"
+  },
+  {
+   "lo": 5800,
+   "hi": 6499,
+   "name": "Dance eJay Samplekit Vol. 5 Trance"
+  },
+  {
+   "lo": 6500,
+   "hi": 7199,
+   "name": "Dance eJay Samplekit Vol. 6 Latin Dance"
+  }
+ ],
+ "pads": [
+  {
+   "sample_id": 1930,
+   "name": "humn.9",
+   "pitch": -10,
+   "word2": 0,
+   "word3": 26578,
+   "word4": 0,
+   "catalog": "humn. 9"
+  },
+  {
+   "sample_id": 1930,
+   "name": "humn.9",
+   "pitch": -8,
+   "word2": 0,
+   "word3": 26578,
+   "word4": 0,
+   "catalog": "humn. 9"
+  },
+  {
+   "sample_id": 1930,
+   "name": "humn.9",
+   "pitch": -6,
+   "word2": 0,
+   "word3": 26578,
+   "word4": 0,
+   "catalog": "humn. 9"
+  },
+  {
+   "sample_id": 1930,
+   "name": "humn.9",
+   "pitch": -4,
+   "word2": 0,
+   "word3": 26578,
+   "word4": 0,
+   "catalog": "humn. 9"
+  },
+  {
+   "sample_id": 1930,
+   "name": "humn.9",
+   "pitch": -3,
+   "word2": 0,
+   "word3": 26578,
+   "word4": 0,
+   "catalog": "humn. 9"
+  },
+  {
+   "sample_id": 1930,
+   "name": "humn.9",
+   "pitch": -1,
+   "word2": 0,
+   "word3": 26578,
+   "word4": 0,
+   "catalog": "humn. 9"
+  },
+  {
+   "sample_id": 1930,
+   "name": "humn.9",
+   "pitch": 1,
+   "word2": 0,
+   "word3": 17840,
+   "word4": 0,
+   "catalog": "humn. 9"
+  },
+  {
+   "sample_id": 1930,
+   "name": "humn.9",
+   "pitch": 3,
+   "word2": 0,
+   "word3": 26578,
+   "word4": 0,
+   "catalog": "humn. 9"
+  },
+  {
+   "sample_id": 1930,
+   "name": "humn.9",
+   "pitch": 4,
+   "word2": 0,
+   "word3": 26577,
+   "word4": 0,
+   "catalog": "humn. 9"
+  },
+  {
+   "sample_id": 1930,
+   "name": "humn.9",
+   "pitch": -8,
+   "word2": 65535,
+   "word3": 26578,
+   "word4": 0,
+   "catalog": "humn. 9"
+  }
+ ],
+ "pattern_bytes": 149,
+ "pattern_hex": "0000ff7f9e3fffffbd3daa2800003e3fd43df8020000010600000000fffeffffc20200fffdffffc30200fffcffffc40200fffbffffc50200fffaffffc50200fff9ffffc502020000000003000000000400000000050000000006000000000700000000080000000009000000000a000000000b000000000c000000000d000000000e000000000f0000000010000000001110000000",
+ "pattern_sections": [
+  {
+   "index": 1,
+   "count": 6,
+   "notes": [
+    {
+     "kind": "clip",
+     "sample_id": 706,
+     "start_bar": 3.0,
+     "block": 2,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 707,
+     "start_bar": 5.0,
+     "block": 3,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 708,
+     "start_bar": 7.0,
+     "block": 4,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 709,
+     "start_bar": 9.0,
+     "block": 5,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 709,
+     "start_bar": 11.0,
+     "block": 6,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    },
+    {
+     "kind": "clip",
+     "sample_id": 709,
+     "start_bar": 13.0,
+     "block": 7,
+     "byte0": 0,
+     "byte1": 255,
+     "word": 65535
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "count": 0,
+   "notes": []
+  },
+  {
+   "index": 3,
+   "count": 0,
+   "notes": []
+  },
+  {
+   "index": 4,
+   "count": 0,
+   "notes": []
+  },
+  {
+   "index": 5,
+   "count": 0,
+   "notes": []
+  },
+  {
+   "index": 6,
+   "count": 0,
+   "notes": []
+  },
+  {
+   "index": 7,
+   "count": 0,
+   "notes": []
+  },
+  {
+   "index": 8,
+   "count": 0,
+   "notes": []
+  },
+  {
+   "index": 9,
+   "count": 0,
+   "notes": []
+  },
+  {
+   "index": 10,
+   "count": 0,
+   "notes": []
+  },
+  {
+   "index": 11,
+   "count": 0,
+   "notes": []
+  },
+  {
+   "index": 12,
+   "count": 0,
+   "notes": []
+  },
+  {
+   "index": 13,
+   "count": 0,
+   "notes": []
+  },
+  {
+   "index": 14,
+   "count": 0,
+   "notes": []
+  },
+  {
+   "index": 15,
+   "count": 0,
+   "notes": []
+  },
+  {
+   "index": 16,
+   "count": 0,
+   "notes": []
+  },
+  {
+   "index": 17,
+   "count": 16,
+   "notes": []
+  }
+ ],
+ "events": [
+  {
+   "name": "You",
+   "number": "",
+   "kind": 2,
+   "channel": 255,
+   "pitch": -1,
+   "instance": 7320
+  },
+  {
+   "name": "can",
+   "number": "",
+   "kind": 2,
+   "channel": 127,
+   "pitch": -1,
+   "instance": 7321
+  },
+  {
+   "name": "even",
+   "number": "",
+   "kind": 2,
+   "channel": 255,
+   "pitch": -2,
+   "instance": 7322
+  },
+  {
+   "name": "create",
+   "number": "",
+   "kind": 2,
+   "channel": 127,
+   "pitch": -2,
+   "instance": 7323
+  },
+  {
+   "name": "some",
+   "number": "",
+   "kind": 2,
+   "channel": 255,
+   "pitch": -3,
+   "instance": 7324
+  },
+  {
+   "name": "funky",
+   "number": "",
+   "kind": 2,
+   "channel": 127,
+   "pitch": -3,
+   "instance": 7325
+  },
+  {
+   "name": "lines",
+   "number": "",
+   "kind": 2,
+   "channel": 255,
+   "pitch": -4,
+   "instance": 7326
+  },
+  {
+   "name": "with",
+   "number": "",
+   "kind": 2,
+   "channel": 127,
+   "pitch": -4,
+   "instance": 7327
+  },
+  {
+   "name": "your",
+   "number": "",
+   "kind": 2,
+   "channel": 255,
+   "pitch": -5,
+   "instance": 7328
+  },
+  {
+   "name": "Groove",
+   "number": "",
+   "kind": 2,
+   "channel": 127,
+   "pitch": -5,
+   "instance": 7329
+  },
+  {
+   "name": "generat",
+   "number": "",
+   "kind": 2,
+   "channel": 255,
+   "pitch": -6,
+   "instance": 7330
+  },
+  {
+   "name": "or   if",
+   "number": "",
+   "kind": 2,
+   "channel": 127,
+   "pitch": -6,
+   "instance": 7331
+  },
+  {
+   "name": "you",
+   "number": "",
+   "kind": 2,
+   "channel": 255,
+   "pitch": -7,
+   "instance": 7332
+  },
+  {
+   "name": "want",
+   "number": "",
+   "kind": 2,
+   "channel": 127,
+   "pitch": -7,
+   "instance": 7333
+  },
+  {
+   "name": "!!!!",
+   "number": "",
+   "kind": 2,
+   "channel": 255,
+   "pitch": -8,
+   "instance": 7334
+  },
+  {
+   "name": "",
+   "number": "",
+   "kind": 2,
+   "channel": 127,
+   "pitch": -8,
+   "instance": 7335
+  }
+ ],
+ "tail_hex": [
+  "02ffffffff981c0100044100000000000000000000000000000000",
+  "027fffffff991c0000040100000100000000000000000000000000",
+  "02fffeffff9a1c0100044100000000000000000000000000000000",
+  "027ffeffff9b1c0000040000004110000000000000000000000000",
+  "02fffdffff9c1c0100044100000000000000000000000000000000",
+  "027ffdffff9d1c0000041100000100000000000000000000000000",
+  "02fffcffff9e1c0101040400000000000000000000000000000000",
+  "027ffcffff9f1c4100040100000010000000000000000000000000",
+  "02fffbffffa01c0100044100000000000000000000000090450000",
+  "027ffbffffa11c0000040100000100000000000000000090050010",
+  "02fffaffffa21c010004410000000000000000000000005a5a0000",
+  "027ffaffffa31c000004000000411000000000000000005a000015",
+  "02fff9ffffa41c0100044101000401000000000000000000b00000",
+  "027ff9ffffa51c0100040101000401000000000000000000b00000",
+  "02fff8ffffa61c0100044101000401000000000000000000980000",
+  "027ff8ffffa71c4100040100000000000000000000000001000000"
+ ]
+}
