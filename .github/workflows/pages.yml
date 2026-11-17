@@ -30,16 +30,33 @@ jobs:
         with:
           python-version: "3.x"
 
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: web/package-lock.json
+
       - name: Install python-markdown
         run: python -m pip install --disable-pip-version-check markdown
 
-      - name: Convert docs/*.md to web/*.html
+      - name: Convert docs/*.md to web/src/*.html
         run: python docs/build_html.py
+
+      - name: Install web dependencies
+        working-directory: web
+        run: npm ci
+
+      - name: Build the site into web/dist
+        working-directory: web
+        run: npm run build
 
       - name: Stage the site
         run: |
           mkdir -p _site
-          rsync -a --exclude node_modules web/ _site/
+          cp -R web/dist/. _site/
+          touch _site/.nojekyll
+          test -f _site/index.html
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
