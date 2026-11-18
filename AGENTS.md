@@ -79,6 +79,13 @@ upstream spec to consult.
 * Windows 10/11 with **Git Bash**; use POSIX syntax (`ls`, `mv`, `rm`, `/dev/null`).
 * `python` is Python 3.14 (3.14.7 at time of writing). Run scripts from the
   repository root; they locate the data relative to their own file.
+* Environments and dependencies are managed with **uv**: `uv sync` builds
+  `.venv` from `pyproject.toml` and the committed `uv.lock` (`.venv/` is
+  ignored), and `uv run <command>` runs any check or application inside it.
+  `pip install ...` still works, but uv is the supported path.  The `pyproject`
+  optional-dependency groups are `playback` (`sounddevice`), `tui` (`textual`)
+  and `pxd2wav` (`tkinterdnd2`); `uv sync --all-extras` installs all of them
+  plus the `dev` group (`pyinstaller`).
 * Dependencies: `numpy` (required by `libs/pxd/` and the
   `apps/emp/src/core/` player core), `sounddevice` (live playback only, imported lazily by the sink),
   `textual` (the `apps/emp/src/mixtui.py` TUI only, also imported lazily)
@@ -95,6 +102,10 @@ upstream spec to consult.
 * No test framework, no CI. Verification is the CLI checks below.
 
 ## Checks (run after any change)
+
+Prefix each command with `uv run` (e.g. `uv run python apps/emp/src/check_contracts.py`)
+so it runs inside the uv-managed environment; plain `python` works too when the
+dependencies are already installed.
 
 ```bash
 python apps/emp/src/check_contracts.py                    # must print 5/5
@@ -302,7 +313,7 @@ every target also has a release script beside its spec, and the build and
 upload code is shared:
 
 ```bash
-python -m pip install pyinstaller numpy sounddevice textual tkinterdnd2
+uv sync --all-extras
 python apps/emp/packaging/build_emp_cli.py --clean
 python apps/emp/packaging/build_emp_tui.py --clean
 python apps/emr/packaging/build_emr_cli.py --clean
