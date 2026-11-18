@@ -1,4 +1,4 @@
-# eJay `.MIX` player (EMP)
+# eJayTools
 
 **Live website:** https://hatebit.github.io/eJayTools/
 
@@ -62,6 +62,12 @@ Textual TUI: pick a mix, then play, pause, seek or export the selected bars. A
 TUI render is byte-identical to the CLI's for the same bars. It needs the
 optional `textual` package; the CLIs do not.
 
+`python apps/pxd2wav/src/pxd2wav.py` converts samples rather than mixes: with
+no arguments it opens a small window (drop a `.PXD`, or an eJay 2 `.INF` bundle
+and pick one of its samples by id), with a path it converts headlessly
+(`AAAF.PXD out.wav`, `DANCE20.INF --id 1512 out.wav`), and `--list` prints the
+ids an index holds.
+
 ## Requirements
 
 * Python 3.14 (developed on 3.14.7, Windows + Git Bash).
@@ -73,8 +79,9 @@ optional `textual` package; the CLIs do not.
 
 ## Documentation
 
-End-user manuals for the three applications (`emp-cli`, `emp-tui` and
-`emr-cli`) are in [`docs/`](docs/), with an index of the shared conventions.
+End-user manuals for the four applications (`emp-cli`, `emp-tui`, `emr-cli`
+and `pxd2wav`) are in [`docs/`](docs/), with an index of the shared
+conventions.
 
 Each format has a documentation tree under `reverse/` with the same six files:
 
@@ -163,6 +170,18 @@ names all five, and the player core and shared contracts name no format.
 (`emp-tui`); `apps/emp/packaging/release_emp_*.py` zip and publish them as
 GitHub releases with `gh`. `apps/emr/packaging/build_emr_cli.py` and
 `apps/emr/packaging/release_emr_cli.py` do the same for the PNG renderer as
-`emr-cli`. `.github/workflows/release.yml` runs the same scripts on a Windows
-runner for each `v*` tag and publishes the zips to GitHub releases. Build,
+`emr-cli`. `apps/pxd2wav/packaging/build_pxd2wav.py` and
+`apps/pxd2wav/packaging/release_pxd2wav.py` do the same for the converter as
+`pxd2wav`, bundling `tkinterdnd2` so drag and drop works in the frozen build.
+`.github/workflows/release-emp-cli.yml`, `release-emp-tui.yml`,
+`release-emr-cli.yml` and `release-pxd2wav.yml` each build and publish one tool
+on their own Windows runner: a `v*` tag releases all four, a `<tool>-v*` tag
+just that one. Build,
 release and data-path details are in [`AGENTS.md`](AGENTS.md).
+
+## Licence
+
+[MIT](LICENSE), © 2026 Nelson Gonçalves. The licence covers this repository's
+code and documentation. The eJay software, the sample banks and the names in
+their catalogues remain with their owners: no eJay data is included here, and
+this project is not affiliated with the original eJay publishers.

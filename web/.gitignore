@@ -1,2 +1,8 @@
 dist
 node_modules
+# Written by docs/build_html.py from docs/*.md; the sources are in docs/
+src/README.html
+src/emp-cli.html
+src/emp-tui.html
+src/emr.html
+src/pxd2wav.html
