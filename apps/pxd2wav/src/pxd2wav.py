@@ -369,7 +369,12 @@ def run_check() -> int:
         print('tkinter: missing (the window is unavailable, headless works)')
         return 0
     print('tkinter %s' % tk.TkVersion)
-    root, dnd = _make_root()
+    try:
+        root, dnd = _make_root()
+    except tk.TclError as error:
+        print('window: unavailable (%s)' % error)
+        print('drag and drop: unknown (no window to attach it to)')
+        return 0
     root.withdraw()
     root.destroy()
     print('drag and drop: %s'
