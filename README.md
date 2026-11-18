@@ -1,5 +1,11 @@
 # eJayTools
 
+[![CI](https://github.com/hatebit/eJayTools/actions/workflows/ci.yml/badge.svg)](https://github.com/hatebit/eJayTools/actions/workflows/ci.yml)
+[![Latest release](https://img.shields.io/github/v/release/hatebit/eJayTools?label=latest%20release)](https://github.com/hatebit/eJayTools/releases/latest)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Python 3.14](https://img.shields.io/badge/python-3.14-blue.svg)](https://www.python.org/)
+[![Pages](https://img.shields.io/badge/Pages-live-brightgreen)](https://hatebit.github.io/eJayTools/)
+
 **Live website:** https://hatebit.github.io/eJayTools/
 
 Reverse-engineered descriptions of the Dance eJay, Rave eJay and HipHop eJay
@@ -26,8 +32,18 @@ record's start bar. Each tree's `FORMAT.md` has the byte-level detail.
 
 ## Quick start
 
-Run from the repository root, with the eJay data present under `disks/`
-(all five trees for `--all`; see [Data](#data)).
+Set the environment up once with [uv](https://docs.astral.sh/uv/) (recommended),
+which reads `pyproject.toml` and the committed `uv.lock` and creates `.venv`:
+
+```bash
+uv sync --all-extras          # numpy + sounddevice + textual + tkinterdnd2
+uv run python apps/emp/src/mixplayer.py --version
+```
+
+Then run from the repository root, with the eJay data present under `disks/`
+(all five trees for `--all`; see [Data](#data)). Prefix the commands below with
+`uv run` to use the uv environment, or use plain `python` when the dependencies
+are already installed:
 
 ```bash
 python reverse/dance/mixdump.py --verify --all                    # every song re-encodes exactly
@@ -71,11 +87,19 @@ ids an index holds.
 ## Requirements
 
 * Python 3.14 (developed on 3.14.7, Windows + Git Bash).
+* [uv](https://docs.astral.sh/uv/) for the recommended setup: `uv sync` reads
+  `pyproject.toml` and `uv.lock`; `uv run <command>` runs inside that
+  environment. Plain `pip install` works too.
 * `numpy` for the `.PXD` codec and the player core.
 * `sounddevice` for live playback only.
 * `textual` for the TUI only.
+* `tkinterdnd2` for the converter window's drag and drop only.
 * `mixfmt.py`, `mixdump.py`, `mixrender.py` and `apps/emr/src/render/` use the
   standard library only.
+
+The optional groups in `pyproject.toml` are `playback`, `tui` and `pxd2wav`
+(`uv sync --extra tui`, `--all-extras` installs everything); `pyinstaller` is in
+the `dev` group for building the bundles.
 
 ## Documentation
 

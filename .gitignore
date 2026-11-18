@@ -3,6 +3,9 @@
 
 __pycache__
 
+# uv virtual environment (uv.lock is tracked)
+.venv/
+
 # PyInstaller output (tools/emp/packaging/build_emp_cli.py)
 /build/
 /dist/
