@@ -1,14 +1,16 @@
 # User manuals
 
-These manuals cover the three applications in this repository.  All three are
-frontends over the same five reverse-engineered eJay `*.MIX` formats; none of
-them modifies the eJay data under `disks/`.
+These manuals cover the four applications in this repository.  Three are
+frontends over the same five reverse-engineered eJay `*.MIX` formats; the
+fourth converts individual `.PXD` samples to WAV.  None of them modifies the
+eJay data under `disks/`.
 
 | application | source entry point | binary | what it does | manual                   |
 |---|---|---|---|--------------------------|
 | EMP CLI | [`apps/emp/src/mixplayer.py`](https://github.com/hatebit/eJayTools/apps/emp/src/mixplayer.py) | `emp-cli.exe` | play a mix, or render a bar range to WAV | [emp-cli.md](emp-cli.md) |
 | EMP TUI | [`apps/emp/src/mixtui.py`](https://github.com/hatebit/eJayTools/apps/emp/src/mixtui.py) | `emp-tui.exe` | the same player as an interactive terminal UI | [emp-tui.md](emp-tui.md) |
 | EMR CLI | [`apps/emr/src/mixrender.py`](https://github.com/hatebit/eJayTools/apps/emr/src/mixrender.py) | `emr-cli.exe` | render arrangements as PNG track grids | [emr.md](emr.md)         |
+| PXD to WAV | [`apps/pxd2wav/src/pxd2wav.py`](https://github.com/hatebit/eJayTools/apps/pxd2wav/src/pxd2wav.py) | `pxd2wav.exe` | convert one `.PXD` sample, or one bundle record, to a WAV | [pxd2wav.md](pxd2wav.md) |
 
 The format specifications live under [`reverse/`](https://github.com/hatebit/eJayTools/reverse/); the
 `reverse/<tree>/mixdump.py` dumpers and the `libs/pxd` codec CLI are
@@ -38,11 +40,14 @@ from 1.  Track numbers on the command line are always
 ## Requirements
 
 * Python 3.14 for source runs.
-* `numpy` for the player applications (the `.PXD` codec).
+* `numpy` for the player applications and the `.PXD` converter, which all
+  share the codec.
 * `sounddevice` for live playback only.  WAV export and PNG rendering work
   without it.
 * `textual` for the TUI only.  The two command-line applications do not need
   it.
+* `tkinter` for the converter's window, and `tkinterdnd2` for its drag and
+  drop.  A headless conversion needs neither.
 
 The renderer and the parsers it imports are standard-library only.  There is
 no installation step: run the scripts from a source checkout, or use the
@@ -77,4 +82,4 @@ songs are not found.  Data is read-only; no application writes under `disks/`.
   until `--format` names the tree or a path disambiguates it.
 * Exit status `0` means success.  A non-zero status is an error and is
   reported on stderr; the exact codes are listed in each manual.
-* All three frontends report version `1.0.0`.
+* All four applications report version `1.0.0`.
