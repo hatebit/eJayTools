@@ -132,6 +132,15 @@ tkinter 9.0
 drag and drop: yes
 ```
 
+On a host without a display (a CI runner, for instance) the window cannot be
+created at all, so the last two lines report that instead and the status stays
+`0`:
+
+```text
+window: unavailable (no display name and no $DISPLAY environment variable)
+drag and drop: unknown (no window to attach it to)
+```
+
 ## Examples
 
 ```bash
