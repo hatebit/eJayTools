@@ -53,6 +53,7 @@ apps/emr/src/mixrender.py    unified PNG renderer (detects the format)
 apps/emr/packaging/          PyInstaller spec, build and release wrappers for
                              `emr-cli`
 apps/emp/src/mixtui.py      Textual frontend (optional dependency)
+apps/pxd2wav/src/pxd2wav.py .PXD -> WAV converter: Tk window or headless
 apps/emp/src/paths.py       locate disks/ in a source checkout or a frozen build
 apps/emp/packaging/         PyInstaller specs, bundle builders and release
                              uploaders
@@ -79,8 +80,10 @@ upstream spec to consult.
 * `python` is Python 3.14 (3.14.7 at time of writing). Run scripts from the
   repository root; they locate the data relative to their own file.
 * Dependencies: `numpy` (required by `libs/pxd/` and the
-  `apps/emp/src/core/` player core), `sounddevice` (live playback only, imported lazily by the sink)
-  and `textual` (the `apps/emp/src/mixtui.py` TUI only, also imported lazily).
+  `apps/emp/src/core/` player core), `sounddevice` (live playback only, imported lazily by the sink),
+  `textual` (the `apps/emp/src/mixtui.py` TUI only, also imported lazily)
+  and `tkinterdnd2` (the `apps/pxd2wav/src/pxd2wav.py` window's drag and drop
+  only, also imported lazily; Tk itself is the standard library's `tkinter`).
   `libs/mix/`, `apps/emr/src/render/`, `mixfmt.py`, `mixdump.py` and
   `mixrender.py` must stay standard-library only — the PNG writer uses `zlib`
   + `struct` rather than Pillow. Do not add dependencies for those.
@@ -282,28 +285,32 @@ Techno eJay 2 invariants:
 
 ## Packaging and binaries
 
-Two players and the renderer are packaged:
+Two players, the renderer and the PXD converter are packaged:
 
 | Binary | Entry point | Output |
 |---|---|---|
 | `emp-cli` | `apps/emp/src/mixplayer.py` | `dist/emp-cli/emp-cli.exe` |
 | `emp-tui` | `apps/emp/src/mixtui.py` | `dist/emp-tui/emp-tui.exe` |
 | `emr-cli` | `apps/emr/src/mixrender.py` | `dist/emr-cli/emr-cli.exe` |
+| `pxd2wav` | `apps/pxd2wav/src/pxd2wav.py` | `dist/pxd2wav/pxd2wav.exe` |
 
 `apps/emp/packaging/build_emp_cli.py`,
 `apps/emp/packaging/build_emp_tui.py`
 and `apps/emr/packaging/build_emr_cli.py` build the one-dir PyInstaller
-bundles; each has its spec and release script beside it, and the build and
+bundles, as does `apps/pxd2wav/packaging/build_pxd2wav.py` for the converter;
+every target also has a release script beside its spec, and the build and
 upload code is shared:
 
 ```bash
-python -m pip install pyinstaller numpy sounddevice textual
+python -m pip install pyinstaller numpy sounddevice textual tkinterdnd2
 python apps/emp/packaging/build_emp_cli.py --clean
 python apps/emp/packaging/build_emp_tui.py --clean
 python apps/emr/packaging/build_emr_cli.py --clean
+python apps/pxd2wav/packaging/build_pxd2wav.py --clean
 dist/emp-cli/emp-cli.exe disks/Dance_eJay/MIX/START.MIX --from 82 --bars 8 --wav out.wav
 dist/emp-tui/emp-tui.exe disks/Dance_eJay/MIX/START.MIX
 dist/emr-cli/emr-cli.exe --all --out out/images
+dist/pxd2wav/pxd2wav.exe disks/Dance_eJay/DANCE/BA/AAAF.PXD out.wav
 ```
 
 Each bundle is its executable plus an `_internal/` folder; zip the whole
@@ -317,7 +324,9 @@ PortAudio DLL are bundled when the package is installed at build time; `--wav`
 works without them. The TUI bundle also carries `textual` and its CSS and
 metadata. `emr-cli` needs neither: it bundles no third-party package (the
 renderer and the parsers it imports are standard-library only) and is 23 MB on
-Windows x64.
+Windows x64. `pxd2wav` bundles `numpy` and `tkinterdnd2` (its drag and drop,
+which the spec collects as data; `pxd2wav.exe --check` reports whether it
+loaded) and is 61 MB on Windows x64.
 
 The `release_*.py` script beside each build wrapper zips a bundle and publishes
 it as a GitHub release with `gh` (authenticate once with `gh auth login`):
@@ -326,25 +335,33 @@ it as a GitHub release with `gh` (authenticate once with `gh auth login`):
 python apps/emp/packaging/release_emp_cli.py --tag emp-cli-v0.1.0
 python apps/emp/packaging/release_emp_tui.py --tag emp-tui-v0.1.0 --dry-run
 python apps/emr/packaging/release_emr_cli.py --tag emr-cli-v0.1.0 --dry-run
+python apps/pxd2wav/packaging/release_pxd2wav.py --tag pxd2wav-v1.0.0 --dry-run
 ```
 
 The archives are `dist/emp-cli-<version>-<os>-<arch>.zip`,
-`dist/emp-tui-<version>-<os>-<arch>.zip` and
-`dist/emr-cli-<version>-<os>-<arch>.zip`, where `<version>` is `VERSION` in
+`dist/emp-tui-<version>-<os>-<arch>.zip`,
+`dist/emr-cli-<version>-<os>-<arch>.zip` and
+`dist/pxd2wav-<version>-<os>-<arch>.zip`, where `<version>` is `VERSION` in
 that target's CLI module (`apps/emp/src/core/cli.py` for the two players,
-`apps/emr/src/render/cli.py` for the renderer; the Windows x64 archives are
-23 MB, 34 MB and 10 MB). The scripts ask for confirmation, tag the release at
+`apps/emr/src/render/cli.py` for the renderer, `apps/pxd2wav/src/pxd2wav.py`
+for the converter; the Windows x64 archives are 23 MB, 34 MB, 10 MB and
+26 MB). The scripts ask for confirmation, tag the release at
 the current commit and put the archive's SHA-256 in the notes; `--draft`,
 `--prerelease`, `--notes-file`
 and `--replace` cover the usual variations. The shared build, zip and upload
 code lives in `apps/emp/packaging/empbundle.py`.
 
-`.github/workflows/release.yml` runs those same scripts on a `windows-latest`
-runner when a `v*` tag is pushed, or when it is dispatched with a version. It
-builds all three bundles once, smoke-tests the executables with `--version`,
-then publishes `emp-cli-<tag>`, `emp-tui-<tag>` and `emr-cli-<tag>` releases
-with the zips attached, using the workflow's `GITHUB_TOKEN`. Re-running a tag
-refreshes the archive on the existing release instead of failing.
+`.github/workflows/release-emp-cli.yml`, `release-emp-tui.yml`,
+`release-emr-cli.yml` and `release-pxd2wav.yml` run one script each on a
+`windows-latest` runner, so a
+broken bundle fails only its own workflow. Each installs the dependencies its
+bundle needs, builds that bundle, smoke-tests the executable with `--version`,
+then publishes `emp-cli-<tag>`, `emp-tui-<tag>`, `emr-cli-<tag>` or
+`pxd2wav-<tag>` with the zip
+attached, using the workflow's `GITHUB_TOKEN`. A `v*` tag releases all four
+(`emp-cli-v1.0.0` and so on); a `<tool>-v*` tag releases only that tool; each
+workflow can also be dispatched with a version. Re-running a tag refreshes the
+archive on the existing release instead of failing.
 
 ## Where to change things
 

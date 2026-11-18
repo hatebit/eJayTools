@@ -3,7 +3,8 @@
 ``build_emp_cli.py``, ``build_emp_tui.py``, ``release_emp_cli.py`` and
 ``release_emp_tui.py`` are thin entry points onto :func:`build_main` and
 :func:`release_main` here, and so are ``apps/emr/packaging/build_emr_cli.py``
-and ``apps/emr/packaging/release_emr_cli.py`` for the PNG renderer.  The
+and ``apps/emr/packaging/release_emr_cli.py`` for the PNG renderer,
+plus ``apps/pxd2wav/packaging/build_pxd2wav.py`` for the PXD converter.  The
 archive version is the ``VERSION`` string of the target's own CLI module; the
 eJay data under ``disks/`` is never packaged.
 """
@@ -69,6 +70,14 @@ TARGETS = {
         audio_hint='Writes PNG files only; no audio device is needed.',
         spec_dir=REPO / 'apps' / 'emr' / 'packaging',
         version_source=REPO / 'apps' / 'emr' / 'src' / 'render' / 'cli.py',
+    ),
+    'pxd2wav': Target(
+        name='pxd2wav',
+        description='the PXD to WAV converter',
+        usage='AAAF.PXD out.wav',
+        audio_hint='Writes WAV files only; no audio device is needed.',
+        spec_dir=REPO / 'apps' / 'pxd2wav' / 'packaging',
+        version_source=REPO / 'apps' / 'pxd2wav' / 'src' / 'pxd2wav.py',
     ),
 }
 

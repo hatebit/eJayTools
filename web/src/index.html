@@ -34,7 +34,7 @@
             <li><a href="#tools">Tools</a></li>
             <li><a href="#download">Download</a></li>
             <li><a href="#about">About</a></li>
-            <li><a class="nav-cta" href="https://github.com/hatebit/emp">GitHub</a></li>
+            <li><a class="nav-cta" href="https://github.com/hatebit/eJayTools">GitHub</a></li>
         </ul>
     </nav>
 </header>
@@ -60,17 +60,17 @@
         <ul>
             <li><strong>5</strong><span>supported formats</span></li>
             <li><strong>74</strong><span>tested songs</span></li>
-            <li><strong>3</strong><span>ready to use apps</span></li>
+            <li><strong>4</strong><span>ready to use apps</span></li>
         </ul>
     </section>
 
     <section id="tools" class="section">
         <div class="wrap">
             <div class="section-head">
-                <h2>Three tools, five formats</h2>
+                <h2>Four tools, five formats</h2>
                 <p>
-                    Every app reads the <code>.MIX</code> signature, so one toolset covers the whole
-                    eJay series. Export a WAV, render a PNG arrangement, or decode a single sample.
+                    Every app reads your eJay data directly, so one toolset covers the whole eJay
+                    series. Export a WAV, render a PNG arrangement, or decode a single sample.
                 </p>
                 <ul class="formats" aria-label="Supported formats">
                     <li>Dance eJay</li>
@@ -112,6 +112,17 @@
                     <a class="btn btn-primary" href="pxd.html">Open PXD &rarr; WAV</a>
                     <p class="card-meta">browser &middot; libs/pxd</p>
                 </article>
+
+                <article class="card">
+                    <span class="chip">P2W</span>
+                    <h3>PXD Sample Converter</h3>
+                    <p>
+                        The same decoder as a Windows app: drop a single <code>.PXD</code> on the
+                        window, or open an eJay&nbsp;2 <code>.INF</code> bundle and pick a sample by
+                        id, then save it as a WAV.
+                    </p>
+                    <p class="card-meta">pxd2wav &middot; <a href="pxd2wav.html">manual</a></p>
+                </article>
             </div>
         </div>
     </section>
@@ -131,34 +142,41 @@
                     <span class="chip">Windows x64</span>
                     <h3>emp-cli</h3>
                     <p>Command-line player. Play live, or export exactly the bars you ask for.</p>
-                    <a class="btn btn-primary" href="https://github.com/hatebit/emp/releases">Download emp-cli</a>
+                    <a class="btn btn-primary" href="https://github.com/hatebit/eJayTools/releases">Download emp-cli</a>
                 </article>
 
                 <article class="card">
                     <span class="chip">Windows x64</span>
                     <h3>emp-tui</h3>
                     <p>Experimental player as a terminal UI: browse, seek, play and export.</p>
-                    <a class="btn btn-primary" href="https://github.com/hatebit/emp/releases">Download emp-tui</a>
+                    <a class="btn btn-primary" href="https://github.com/hatebit/eJayTools/releases">Download emp-tui</a>
                 </article>
 
                 <article class="card">
                     <span class="chip">Windows x64</span>
                     <h3>emr-cli</h3>
                     <p>PNG arrangement renderer for songs, one row per track.</p>
-                    <a class="btn btn-primary" href="https://github.com/hatebit/emp/releases">Download emr-cli</a>
+                    <a class="btn btn-primary" href="https://github.com/hatebit/eJayTools/releases">Download emr-cli</a>
+                </article>
+
+                <article class="card">
+                    <span class="chip">Windows x64</span>
+                    <h3>pxd2wav</h3>
+                    <p>Sample converter: one <code>.PXD</code> file, or one sample of a bundle, to a WAV.</p>
+                    <a class="btn btn-primary" href="https://github.com/hatebit/eJayTools/releases">Download pxd2wav</a>
                 </article>
             </div>
 
             <div class="download-actions">
-                <a class="btn btn-primary" href="https://github.com/hatebit/emp/releases">All releases on GitHub</a>
+                <a class="btn btn-primary" href="https://github.com/hatebit/eJayTools/releases">All releases on GitHub</a>
                 <a class="btn btn-ghost" href="README.html">Read the manuals</a>
-                <a class="btn btn-ghost" href="https://github.com/hatebit/emp">Read the source</a>
+                <a class="btn btn-ghost" href="https://github.com/hatebit/eJayTools">Read the source</a>
             </div>
 
             <p class="note">
                 The bundles ship without the eJay audio. Keep your <code>disks/</code> folder beside
                 the unpacked bundle, or set <code>EJAY_DATA_ROOT</code> to the folder that contains
-                it. Manuals for all three apps are in the repository.
+                it. Manuals for all four tools are in the repository.
             </p>
         </div>
     </section>
@@ -198,9 +216,10 @@
                         Techno&nbsp;2 projects are detected automatically from their file signature.
                     </p>
                     <p>
-                        <strong>Three downloads and a browser page.</strong> A command-line player, a
-                        terminal player and a PNG renderer, plus a converter for single
-                        <code>.PXD</code> sample files.
+                        <strong>Four downloads and a browser page.</strong> A command-line player, a
+                        terminal player, a PNG renderer and a converter for single <code>.PXD</code>
+                        sample files, plus the browser page that decodes them without installing
+                        anything.
                     </p>
                     <p>
                         <strong>74 songs as a test set.</strong> Every project in the reference corpus is
@@ -235,9 +254,9 @@
 
             <nav aria-label="Footer">
                 <ul class="footer-links">
-                    <li><a href="https://github.com/hatebit/emp">Source</a></li>
-                    <li><a href="https://github.com/hatebit/emp/releases">Releases</a></li>
-                    <li><a href="https://github.com/hatebit/emp/tree/main/reverse">Format docs</a></li>
+                    <li><a href="https://github.com/hatebit/eJayTools">Source</a></li>
+                    <li><a href="https://github.com/hatebit/eJayTools/releases">Releases</a></li>
+                    <li><a href="https://github.com/hatebit/eJayTools/tree/main/reverse">Format docs</a></li>
                 </ul>
             </nav>
         </div>

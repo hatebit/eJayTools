@@ -58,7 +58,7 @@ PAGE = """<!DOCTYPE html>
             <li><a href="README.html">Manuals</a></li>
             <li><a href="pxd.html">PXD to WAV</a></li>
             <li><a href="index.html#download">Download</a></li>
-            <li><a class="nav-cta" href="https://github.com/hatebit/emp">GitHub</a></li>
+            <li><a class="nav-cta" href="https://github.com/hatebit/eJayTools">GitHub</a></li>
         </ul>
     </nav>
 </header>
@@ -84,8 +84,8 @@ PAGE = """<!DOCTYPE html>
             <nav aria-label="Footer">
                 <ul class="footer-links">
                     <li><a href="README.html">Manuals</a></li>
-                    <li><a href="https://github.com/hatebit/emp">Source</a></li>
-                    <li><a href="https://github.com/hatebit/emp/releases">Releases</a></li>
+                    <li><a href="https://github.com/hatebit/eJayTools">Source</a></li>
+                    <li><a href="https://github.com/hatebit/eJayTools/releases">Releases</a></li>
                 </ul>
             </nav>
         </div>
