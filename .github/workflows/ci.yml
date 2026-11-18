@@ -1,0 +1,67 @@
+name: CI
+
+# Data-free checks only. The byte-exact round-trips
+# (`reverse/<tree>/mixdump.py --verify --all`) read the gitignored `disks/`
+# tree, so they cannot run here; run them locally as AGENTS.md describes.
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci
+  cancel-in-progress: true
+
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.14"
+
+      - name: Install dependencies
+        run: python -m pip install --disable-pip-version-check "numpy>=2.0"
+
+      - name: Contract check (5/5)
+        run: python apps/emp/src/check_contracts.py
+
+      - name: Cross-tree import audit
+        shell: bash
+        run: |
+          set -euo pipefail
+          imports='^[[:space:]]*(from|import)[[:space:]]+(dance2?|rave|hiphop|techno)\b'
+          dirs=(reverse apps/emp/src/core)
+          if [ -d tools ]; then dirs+=(tools); fi
+          if git grep -nEI "$imports" -- "${dirs[@]}"; then
+            echo "::error::a format tree imports another format tree"
+            exit 1
+          fi
+          if git grep -nEI 'format_id[[:space:]]*(==|!=|in)\b' -- apps/emp/src/core; then
+            echo "::error::the format-neutral player core branches on format_id"
+            exit 1
+          fi
+          echo "cross-tree import audit: clean"
+
+      - name: CLI smoke tests
+        shell: bash
+        run: |
+          set -euo pipefail
+          python apps/emp/src/mixplayer.py --version
+          python apps/emr/src/mixrender.py --version
+          python apps/emp/src/mixtui.py --help >/dev/null
+          python apps/pxd2wav/src/pxd2wav.py --check
+
+      - name: Data-dependent round-trips
+        shell: bash
+        run: |
+          echo "Skipped: 'mixdump.py --verify --all' needs the gitignored disks/ tree."
+          echo "Run it locally (see AGENTS.md) to prove byte-exact re-encoding."
